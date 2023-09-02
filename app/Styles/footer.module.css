@@ -1,0 +1,81 @@
+.contenedorFooter {
+    padding: 2rem;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+    
+}
+.imgmap {
+    display: none;
+    @media (min-width:  768px) { 
+        display: block;
+        margin-left: 2rem;
+        position: absolute;
+        top: center;
+        left: 0;
+        width: 40rem;
+        max-height: 90%;
+        height: auto;
+    }   
+}
+.imgmap1 {
+    display: none;
+    @media (min-width:  768px) { 
+        display: block;
+        margin-right: 2rem;
+        position: absolute;
+        top: center;
+        right: 0;
+        width: 40rem;
+        max-width: 90%;
+        max-height: 90%;
+        height: auto;
+    }   
+}
+.logoimg {
+    margin: 0 auto;
+    width: 12rem;
+    height: auto;
+}
+.bloquecopyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    line-height: 2.5;
+    padding-top: 2rem;
+    
+}
+.bloquecopyright a {
+    color: white;
+    border-bottom: 1px dotted #444;
+}
+.bloquecopyright p {
+    color: white;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+}
+.bloquecopyright a:hover {
+    color: #ff0000;
+    border-bottom: 1px dotted #ff0000;
+}
+.bloquecopyright p:hover {
+    color: #ff0000;
+}
+.bloquepoliticas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media (min-width:  477px) { 
+        flex-direction: row;
+    }
+}
+    

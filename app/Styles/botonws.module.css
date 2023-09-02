@@ -1,0 +1,30 @@
+.btnflotante {
+    background-color: #329f00;
+    
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    
+    transition: all ease 0.3s;
+    animation: ws 1.2s infinite;
+
+    bottom: 2rem;
+    right: 2rem;
+}
+.btnflotante:hover {
+    transform: translate(-25%, -25%);
+    transition: 0.3s;
+}
+.boton {
+    width: 6rem;
+    height: 6rem;
+    transition: ease 1s;
+}
+@keyframes ws{
+    0%{
+        box-shadow: 0 0 0 0 rgba(50, 159, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 35px rgba(50, 159, 0, 0.2);
+    }
+}

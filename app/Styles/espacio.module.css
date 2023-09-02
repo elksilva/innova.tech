@@ -1,0 +1,7 @@
+.espacio {
+    padding: 5rem 0;
+    background-color: #eee;
+    @media (min-width:  768px) { 
+        padding: 7rem 0;
+    }
+} 

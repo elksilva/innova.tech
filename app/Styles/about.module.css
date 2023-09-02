@@ -1,0 +1,101 @@
+.contenedorAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 2rem;
+    @media (min-width:  1070px) { 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin: 3rem 0;
+    }
+}
+.bloqueImg {
+    padding: 3rem 0;
+    object-fit: contain;
+    animation: move 3s infinite ease alternate;;
+}
+@keyframes move {
+    from {
+        transform: translateY(-15px);
+    }
+}
+.bloqueImg img {
+    margin: 1.3rem auto;
+    width: 100%;
+    height: 50rem;
+    border-radius: 1.2rem;border-top-left-radius: 50px 100px;
+    border-bottom-right-radius: 50px 100px;
+    @media (min-width:  463px) { 
+        height: 55rem;
+    }
+    @media (min-width:  520px) { 
+        height: 65rem;
+    }
+    @media (min-width:  992px) { 
+        width: 85%;
+        height: auto;
+    }
+}
+.textoAbout {
+    margin: 0 2rem;
+    @media (min-width:  992px) { 
+        /* position: absolute; */
+    }
+}
+.textoAbout p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.textoAbout .textos {
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+.textos h2 {
+    font-size: 2.8rem;
+    margin: 0;
+}
+.textos span {
+    color: #ff0000;
+}
+.textos p {
+    margin: .7rem 0 0 0;
+    font-weight: 400;
+}
+.textos p::after {
+    content: '';
+    display: block;
+    background-color: #ff0000;
+    width: 8rem;
+    padding: .11rem;
+    margin-top: 1rem;
+}
+
+.bloqueDescripAbout {
+    display: flex;
+    margin-top: 2rem;
+}
+.bloqueDescripAbout h3 {
+    font-size: 2rem;
+}
+.bloqueDescripAbout h3::after {
+    content: '';
+    display: block;
+    background-color: #ff0000;
+    width: 5rem;
+    padding: .07rem;
+    margin-top: 1rem;
+}
+.bloqueicon .icon {
+    font-size: 4rem;
+    margin-right: 1.5rem;
+    background-color: #ff0000;
+    color: antiquewhite;
+    padding: 1rem;
+    border-radius: 50%;
+}

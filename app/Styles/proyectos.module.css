@@ -1,0 +1,83 @@
+.contenedoProyecto {
+    
+}
+.contenedoProyecto h2 {
+    font-size: 2.5rem;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    padding: 2rem 0;
+    @media (min-width:  992px) { 
+        font-size: 3.5rem;
+    }
+}
+.contenedoProyecto span {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.contenedoProyecto h2::after {
+    content: '';
+    display: block;
+    background-color: #ff0000;
+    width: 13rem;
+    padding: .11rem;
+    margin: 1.2rem  auto;
+}
+.contenedoProyecto h2::before {
+    content: '';
+    display: block;
+    background-color: #ff0000;
+    width: 25rem;
+    padding: .11rem;
+    margin: 1.2rem auto;
+}
+.contenidoProyecto {
+    @media (min-width:  992px) { 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.videoProyecto {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.bloquevideo {
+    padding: 0 1rem;
+}
+.bloqueDescriccion {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    @media (min-width:  668px) { 
+        display: flex;
+        gap: 2rem;
+    }
+}
+.bloqueDescriccion a .logoEmpresa {
+    width: 7rem;
+    height: auto;
+}
+.textoProyecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textoProyecto h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+    text-align: left;
+}
+.textoProyecto span {
+    font-style: italic;
+    font-weight: 400;
+}
+.textoProyecto p {
+    text-align: justify;
+    line-height: 1.5;
+}

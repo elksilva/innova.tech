@@ -1,0 +1,19 @@
+.bloqueprivacidad {
+    padding: 3rem;
+}
+.bloqueprivacidad h1 {
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid #cfcccc;
+}
+.bloqueprivacidad p {
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 1.6;
+    margin-top: 2rem;
+}
+.bloqueprivacidad h2 {
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid #cfcccc;
+}
