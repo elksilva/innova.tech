@@ -1,5 +1,9 @@
 "use client"
 import Image from 'next/image'
+import servimgweb from '../public/img/servimgweb.jpg'
+import servimgtec from '../public/img/servimgtec.jpg'
+import servimgdev from '../public/img/servimgdev.jpg'
+import servimgremoto from '../public/img/servimgremoto.jpg'
 import Link from 'next/link'
 import styles from '@/app/Styles/services.module.css'
 import { motion } from "framer-motion";
@@ -22,7 +26,7 @@ const Services = () => {
                 >
                     <Image 
                         className={styles.imagenServicio}
-                        src='/img/servimgweb.jpg'
+                        src={servimgweb}
                         width={150}
                         height={150}
                         alt="Imagen Servicios"
@@ -39,7 +43,7 @@ const Services = () => {
                 >
                     <Image 
                         className={styles.imagenServicio}
-                        src='/img/servimgtec.jpg'
+                        src={servimgtec}
                         width={150}
                         height={150}
                         alt="Imagen Servicios"
@@ -56,7 +60,7 @@ const Services = () => {
                 >
                     <Image 
                         className={styles.imagenServicio}
-                        src='/img/servimgdev.jpg'
+                        src={servimgdev}
                         width={150}
                         height={150}
                         alt="Imagen Servicios"
@@ -73,7 +77,7 @@ const Services = () => {
                 >
                     <Image 
                         className={styles.imagenServicio}
-                        src='/img/servimgremoto.jpg'
+                        src={servimgremoto}
                         width={150}
                         height={150}
                         alt="Imagen Servicios"
