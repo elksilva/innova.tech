@@ -1,5 +1,6 @@
 import styles from '@/app/Styles/intermix.module.css'
 import Image from 'next/image'
+import logointermix from '../public/img/logomix.png'
 import Link from 'next/link'
 
 const HeaderIntermix = () => {
@@ -8,7 +9,7 @@ const HeaderIntermix = () => {
         <div className={styles.bloqueizq}>
             <Image 
             className={styles.imgmap} 
-            src='/img/logomix.png' 
+            src={logointermix}
             width={185} 
             height={200} 
             alt='imagen logotipo'

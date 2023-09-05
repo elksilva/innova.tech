@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import imgmap from '../public/img/footer-map.png'
-import imgmap1 from '../public/img/footer-map.png'
+import imgmap1 from '../public/img/footer-map1.png'
 import Link from 'next/link'
 import logo from "../public/img/LogoInnovaTech.png"
 import styles from '@/app/Styles/footer.module.css'
