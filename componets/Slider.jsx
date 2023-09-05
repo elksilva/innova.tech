@@ -1,6 +1,9 @@
 "use client"
 import Link from "next/link";
 import Image from "next/image";
+import slider1 from '../public/img/slider1.jpg';
+import slider2 from '../public/img/dev2.jpg';
+import slider3 from '../public/img/slider2.jpg';
 import {Rubik} from 'next/font/google';
 import styles from '@/app/Styles/slider.module.css'
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -28,7 +31,7 @@ const Slider = () => {
           spaceBetween={0}
           centeredSlides={true} 
           autoplay={{
-            delay: 3500000,
+            delay: 3500,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -42,7 +45,7 @@ const Slider = () => {
               <div className={styles.bloquetexto}>
                   <Image 
                     className={styles.imgslider} 
-                    src='/img/slider1.jpg'  
+                    src={slider1}  
                     width={1200} 
                     height={600} 
                     alt="Imagen Header" 
@@ -57,7 +60,7 @@ const Slider = () => {
                 <div className={styles.bloquetexto}>
                     <Image 
                         className={styles.imgslider} 
-                        src='/img/dev2.jpg'  
+                        src={slider2}  
                         width={1200} 
                         height={600} 
                         alt="Imagen Header"
@@ -72,7 +75,7 @@ const Slider = () => {
                 <div className={styles.bloquetexto}>
                     <Image 
                         className={styles.imgslider} 
-                        src='/img/slider2.jpg'  
+                        src={slider3}  
                         width={1200} 
                         height={600} 
                         alt="Imagen Header" 

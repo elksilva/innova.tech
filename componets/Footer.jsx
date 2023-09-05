@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import imgmap from '../public/img/footer-map.png'
 import Link from 'next/link'
 import logo from "/public/img/LogoInnovaTech.png"
 import styles from '@/app/Styles/footer.module.css'
@@ -8,7 +9,7 @@ const Footer = () => {
     <div className={styles.contenedorFooter}>
         <Image 
           className={styles.imgmap} 
-          src='/img/footer-map.png' 
+          src={imgmap} 
           width={450} 
           height={200} 
           alt='imagen logotipo'
@@ -16,7 +17,11 @@ const Footer = () => {
         <div className={styles.bolquefooter}>
             <div className={styles.bloquelogo}>
               <Link href='/'>
-                  <Image className={styles.logoimg} src={logo.src} width={200} height={200} alt='imagen logotipo'/>
+                  <Image 
+                    className={styles.logoimg} 
+                    src={logo.src} width={200} 
+                    height={200} 
+                    alt='imagen logotipo'/>
               </Link>
             </div>
             
@@ -33,7 +38,7 @@ const Footer = () => {
         </div>
         <Image 
           className={styles.imgmap1} 
-          src='/img/footer-map.png' 
+          src={imgmap} 
           width={450} 
           height={200} 
           alt='imagen logotipo'

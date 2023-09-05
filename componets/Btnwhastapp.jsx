@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image"
+import profilePic from '../public/img/iconwschatblack.png'
 import Link from "next/link"
 // import styles from '../Styles/botonws.module.css'
 import styles from '@/app/Styles/botonws.module.css'
@@ -9,7 +10,7 @@ const Btnwhastapp = () => {
     <div className={styles.btnflotante}>
         <Link href="https://api.whatsapp.com/send?phone=573022016786">
           <Image
-            src="/img/iconwschatblack.png" 
+            src={profilePic} 
             className={styles.boton}
             alt="icono de whatsapp"
             width={100} 

@@ -44,7 +44,7 @@ export default function RootLayout({ children, pageProps }) {
             <layout {...pageProps} />
           )}
         </div>
-        <NextTopLoader 
+        <NextTopLoader  
           color='#ff0404'
           showSpinner={false}
         />
