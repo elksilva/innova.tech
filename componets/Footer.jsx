@@ -22,7 +22,8 @@ const Footer = () => {
                     className={styles.logoimg} 
                     src={logo} width={200} 
                     height={200} 
-                    alt='imagen logotipo'/>
+                    alt='imagen logotipo'
+                  />
               </Link>
             </div>
             

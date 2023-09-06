@@ -5,7 +5,6 @@ import Btnwhastapp from '@/componets/Btnwhastapp'
 import Footer from '@/componets/Footer'
 import React, { useEffect, useState } from 'react';
 import './globals.css'
-import { Metadata } from "next"
 import Spinner from "@/componets/Spinner"
 
 import { Rubik, Mulish } from 'next/font/google'
@@ -16,12 +15,6 @@ const fuentePrimaria = Rubik({
   weight: ['400', '600', '700'],
   subsets: ['latin'] 
 }) 
-
-// export const metadata = {
-//   title: 'InnovaTech Quindío',
-//   description: 'Soporte y Desarrollo Informático - Diseño de páginas web - Aplicaciones Web - Reparación de Computadoras - Impresoras',
-//   keywords: 'Desarrollo Web, Aplicaciones web, e-commerce, soporte, reparación de computadores e impresoras, Quindío, Colombia',
-// }
 
 export default function RootLayout({ children, pageProps }) {
 
@@ -41,7 +34,7 @@ export default function RootLayout({ children, pageProps }) {
           {loading ? (
             <Spinner/>
           ) : (
-            <layout {...pageProps} />
+            <div {...pageProps} />
           )}
         </div>
         <NextTopLoader  
