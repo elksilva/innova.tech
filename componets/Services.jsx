@@ -30,6 +30,7 @@ const Services = () => {
                         width={150}
                         height={150}
                         alt="Imagen Servicios"
+                        unoptimized
                     />
                     <h3>Diseño de Páginas Web</h3>
                     <p>Desarrollamos y diseñamos el sitio web que tu empresa o proyecto necesita adaptado a cualquier dispositivo.</p>
@@ -47,6 +48,7 @@ const Services = () => {
                         width={150}
                         height={150}
                         alt="Imagen Servicios"
+                        unoptimized
                     />
                     <h3>Soporte Informático</h3>
                     <p>Instalación, mantenimiento y reparación de equipos de cómputos (Computadores - Impresoras)</p>
@@ -64,6 +66,7 @@ const Services = () => {
                         width={150}
                         height={150}
                         alt="Imagen Servicios"
+                        unoptimized
                     />
                     <h3>Desarrollo de Software</h3>
                     <p>Creamos Aplicaciones de Escritorio, diseños de bases de datos, creación de tienda virtual (e-commerce)</p>
@@ -81,6 +84,7 @@ const Services = () => {
                         width={150}
                         height={150}
                         alt="Imagen Servicios"
+                        unoptimized
                     />
                     <h3>Asistencia Remota</h3>
                     <p>Ofrecemos el primer nivel de soporte informático a través de cualquier medio de comunicación, dando soluciones efectivas.</p>

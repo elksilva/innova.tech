@@ -14,6 +14,7 @@ const Footer = () => {
           width={450} 
           height={200} 
           alt='imagen mapa'
+          unoptimized
         />
         <div className={styles.bolquefooter}>
             <div className={styles.bloquelogo}>
@@ -23,6 +24,7 @@ const Footer = () => {
                     src={logo} width={200} 
                     height={200} 
                     alt='imagen logotipo'
+                    unoptimized
                   />
               </Link>
             </div>
@@ -44,6 +46,7 @@ const Footer = () => {
           width={450} 
           height={200} 
           alt='imagen mapa' 
+          unoptimized
         />
     </div>
   )

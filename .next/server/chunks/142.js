@@ -94,7 +94,8 @@ const Slider = ()=>{
                                 width: 1200,
                                 height: 600,
                                 alt: "Imagen Header",
-                                priority: true
+                                priority: true,
+                                unoptimized: true
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                                 className: (slider_module_default()).textoencima1,
@@ -119,7 +120,8 @@ const Slider = ()=>{
                                 width: 1200,
                                 height: 600,
                                 alt: "Imagen Header",
-                                priority: true
+                                priority: true,
+                                unoptimized: true
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                                 className: "texto-encima3",
@@ -144,7 +146,8 @@ const Slider = ()=>{
                                 width: 1200,
                                 height: 600,
                                 alt: "Imagen Header",
-                                priority: true
+                                priority: true,
+                                unoptimized: true
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                                 className: (slider_module_default()).textoencima2,

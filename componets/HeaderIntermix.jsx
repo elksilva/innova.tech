@@ -13,6 +13,7 @@ const HeaderIntermix = () => {
             width={185} 
             height={200} 
             alt='imagen logotipo'
+            unoptimized
             />
             {/* <h1><span>InterMix</span>App de Reservas</h1> */}
             <h3>Sistema para reservas de citas</h3>

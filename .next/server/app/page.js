@@ -332,14 +332,14 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 8193:
+/***/ 5357:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8354));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4664));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9013));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3768));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9013));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9103))
 
 /***/ }),
@@ -430,7 +430,8 @@ const Proyectos = ()=>{
                                                 src: fcm,
                                                 width: 150,
                                                 height: 120,
-                                                alt: "Logo Empresa"
+                                                alt: "Logo Empresa",
+                                                unoptimized: true
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -469,7 +470,8 @@ const Proyectos = ()=>{
                                                 src: LogoInnovaTech/* default */.Z,
                                                 width: 150,
                                                 height: 120,
-                                                alt: "Logo Empresa"
+                                                alt: "Logo Empresa",
+                                                unoptimized: true
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -508,7 +510,8 @@ const Proyectos = ()=>{
                                                 src: fcm,
                                                 width: 150,
                                                 height: 120,
-                                                alt: "Logo Empresa"
+                                                alt: "Logo Empresa",
+                                                unoptimized: true
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -547,7 +550,8 @@ const Proyectos = ()=>{
                                                 src: ptt,
                                                 width: 150,
                                                 height: 120,
-                                                alt: "Logo Empresa"
+                                                alt: "Logo Empresa",
+                                                unoptimized: true
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("div", {

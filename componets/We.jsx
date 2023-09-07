@@ -15,7 +15,7 @@ const We = () => {
     <>
       <div className={`${fuentePoppins.className} ${styles.contenedorAbout}`}>
         <div className={styles.bloqueImg}>
-          <Image className={styles.imgAbout} src={imageAbout.src} width={800} height={900} alt='Imagen sobre InnovaTech'/>
+          <Image className={styles.imgAbout} src={imageAbout.src} width={800} height={900} alt='Imagen sobre InnovaTech' unoptimized/>
         </div>
 
         <div className={styles.textoAbout}>

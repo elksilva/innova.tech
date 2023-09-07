@@ -36,7 +36,7 @@ const Proyectos = () => {
                     }
                     <div className={styles.bloqueDescriccion}>
                         <Link href="https://fundacioneducativacarlomagno.com.co/">
-                            <Image className={styles.logoEmpresa} src={logo} width={150} height={120} alt='Logo Empresa'/>
+                            <Image className={styles.logoEmpresa} src={logo} width={150} height={120} alt='Logo Empresa' unoptimized/>
                         </Link>
                         <div className={styles.textoProyecto}>
                             <h3>Página Web - <span>Fundación Educativa Carlo Magno</span></h3>
@@ -57,7 +57,7 @@ const Proyectos = () => {
                     }
                     <div className={styles.bloqueDescriccion}>
                         <Link href="#">
-                            <Image className={styles.logoEmpresa} src={logo2} width={150} height={120} alt='Logo Empresa'/>
+                            <Image className={styles.logoEmpresa} src={logo2} width={150} height={120} alt='Logo Empresa' unoptimized/>
                         </Link>
                         <div className={styles.textoProyecto}>
                             <h3>Sistema de Reservas para Cita Online - <span>Barbería - Salón de Belleza - Spa</span></h3>
@@ -78,7 +78,7 @@ const Proyectos = () => {
                     }
                     <div className={styles.bloqueDescriccion}>
                         <Link href="https://fundacioneducativacarlomagno.com.co/">
-                            <Image className={styles.logoEmpresa} src={logo3} width={150} height={120} alt='Logo Empresa'/>
+                            <Image className={styles.logoEmpresa} src={logo3} width={150} height={120} alt='Logo Empresa' unoptimized/>
                         </Link>
                         <div className={styles.textoProyecto}>
                             <h3>DashBoard - <span>Fundación Educativa Carlo Magno</span></h3>
@@ -99,7 +99,7 @@ const Proyectos = () => {
                     }
                     <div className={styles.bloqueDescriccion}>
                         <Link href="https://pilotto.co/es/">
-                            <Image className={styles.logoEmpresa} src={logo1} width={150} height={120} alt='Logo Empresa'/>
+                            <Image className={styles.logoEmpresa} src={logo1} width={150} height={120} alt='Logo Empresa' unoptimized/>
                         </Link>
                         <div className={styles.textoProyecto}>
                             <h3>Menú Interactivo - <span>Pilotto App Sistema para Restaurantes</span></h3>

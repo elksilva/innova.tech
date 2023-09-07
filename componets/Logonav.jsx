@@ -48,7 +48,7 @@ const Logonav = () => {
             >
                 <div className={styles.logo}>
                     <Link href='/'>
-                        <Image className={styles.logoimg} src={logo.src} width={300} height={140} alt='imagen logotipo'/>
+                        <Image className={styles.logoimg} src={logo.src} width={300} height={140} alt='imagen logotipo' unoptimized/>
                     </Link>
                 </div> 
                 

@@ -279,7 +279,8 @@ const Logonav = ()=>{
                                 src: logo.src,
                                 width: 300,
                                 height: 140,
-                                alt: "imagen logotipo"
+                                alt: "imagen logotipo",
+                                unoptimized: true
                             })
                         })
                     }),
@@ -521,7 +522,8 @@ const Footer = ()=>{
                 src: footer_map,
                 width: 450,
                 height: 200,
-                alt: "imagen mapa"
+                alt: "imagen mapa",
+                unoptimized: true
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: (footer_module_default()).bolquefooter,
@@ -535,7 +537,8 @@ const Footer = ()=>{
                                 src: LogoInnovaTech/* default */.Z,
                                 width: 200,
                                 height: 200,
-                                alt: "imagen logotipo"
+                                alt: "imagen logotipo",
+                                unoptimized: true
                             })
                         })
                     }),
@@ -580,7 +583,8 @@ const Footer = ()=>{
                 src: footer_map1,
                 width: 450,
                 height: 200,
-                alt: "imagen mapa"
+                alt: "imagen mapa",
+                unoptimized: true
             })
         ]
     });

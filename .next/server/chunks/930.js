@@ -87,7 +87,8 @@ const Services = ()=>{
                                     src: servimgweb,
                                     width: 150,
                                     height: 150,
-                                    alt: "Imagen Servicios"
+                                    alt: "Imagen Servicios",
+                                    unoptimized: true
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                     children: "Dise\xf1o de P\xe1ginas Web"
@@ -118,7 +119,8 @@ const Services = ()=>{
                                     src: servimgtec,
                                     width: 150,
                                     height: 150,
-                                    alt: "Imagen Servicios"
+                                    alt: "Imagen Servicios",
+                                    unoptimized: true
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                     children: "Soporte Inform\xe1tico"
@@ -149,7 +151,8 @@ const Services = ()=>{
                                     src: servimgdev,
                                     width: 150,
                                     height: 150,
-                                    alt: "Imagen Servicios"
+                                    alt: "Imagen Servicios",
+                                    unoptimized: true
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                     children: "Desarrollo de Software"
@@ -180,7 +183,8 @@ const Services = ()=>{
                                     src: servimgremoto,
                                     width: 150,
                                     height: 150,
-                                    alt: "Imagen Servicios"
+                                    alt: "Imagen Servicios",
+                                    unoptimized: true
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                     children: "Asistencia Remota"

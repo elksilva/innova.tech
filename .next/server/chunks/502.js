@@ -65,7 +65,8 @@ const We = ()=>{
                             src: imgAbout.src,
                             width: 800,
                             height: 900,
-                            alt: "Imagen sobre InnovaTech"
+                            alt: "Imagen sobre InnovaTech",
+                            unoptimized: true
                         })
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {

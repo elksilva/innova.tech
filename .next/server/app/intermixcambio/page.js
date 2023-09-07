@@ -604,7 +604,8 @@ const HeaderIntermix = ()=>{
                         src: logomix,
                         width: 185,
                         height: 200,
-                        alt: "imagen logotipo"
+                        alt: "imagen logotipo",
+                        unoptimized: true
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                         children: "Sistema para reservas de citas"

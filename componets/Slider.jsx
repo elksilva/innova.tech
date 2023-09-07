@@ -50,6 +50,7 @@ const Slider = () => {
                     height={600} 
                     alt="Imagen Header" 
                     priority
+                    unoptimized
                   />
                   <h2 className={styles.textoencima1}>Potencia hoy el crecimiento y la innovación de tu empresa</h2>
                   <Link className={styles.anlaceslider} href="https://api.whatsapp.com/send?phone=573022016786">Contáctanos</Link>
@@ -65,6 +66,7 @@ const Slider = () => {
                         height={600} 
                         alt="Imagen Header"
                         priority
+                        unoptimized
                     />
                     <h2 className="texto-encima3">Servicio Profesional para tus equipos  de cómputos</h2>
                     <Link className={styles.anlaceslider} href="https://api.whatsapp.com/send?phone=573022016786">Contáctanos</Link>
@@ -80,6 +82,7 @@ const Slider = () => {
                         height={600} 
                         alt="Imagen Header" 
                         priority
+                        unoptimized
                     />
                     <h2 className={styles.textoencima2}>Optimiza tu actividad y gana eficiencia  en tu servicio</h2>
                     <Link className={styles.anlaceslider} href="https://api.whatsapp.com/send?phone=573022016786">Contáctanos</Link>
