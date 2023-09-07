@@ -13,7 +13,7 @@ const Footer = () => {
           src={imgmap} 
           width={450} 
           height={200} 
-          alt='imagen logotipo'
+          alt='imagen mapa'
         />
         <div className={styles.bolquefooter}>
             <div className={styles.bloquelogo}>
@@ -43,7 +43,7 @@ const Footer = () => {
           src={imgmap1} 
           width={450} 
           height={200} 
-          alt='imagen logotipo' 
+          alt='imagen mapa' 
         />
     </div>
   )
