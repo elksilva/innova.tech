@@ -32,6 +32,16 @@
       "static/css/a0157f7dd649b24d.css",
       "static/chunks/app/privacy/page-b287902b3c5b1985.js"
     ],
+    "/intermixcambio/page": [
+      "static/chunks/webpack-123d44d713934276.js",
+      "static/chunks/fd9d1056-1e30049a2d92c543.js",
+      "static/chunks/596-738e0fa540b7932e.js",
+      "static/chunks/main-app-36357f5e2c721232.js",
+      "static/chunks/9081a741-1a659a26b5602d91.js",
+      "static/chunks/628-e6dc9770a6444adb.js",
+      "static/css/bccf1abf2386b898.css",
+      "static/chunks/app/intermixcambio/page-1e9580f8c1c09dcf.js"
+    ],
     "/about/page": [
       "static/chunks/webpack-123d44d713934276.js",
       "static/chunks/fd9d1056-1e30049a2d92c543.js",
@@ -54,16 +64,6 @@
       "static/chunks/843-27a6639f48062165.js",
       "static/css/8847c30f279e93b1.css",
       "static/chunks/app/contacts/page-eecba7390e60d89b.js"
-    ],
-    "/intermixcambio/page": [
-      "static/chunks/webpack-123d44d713934276.js",
-      "static/chunks/fd9d1056-1e30049a2d92c543.js",
-      "static/chunks/596-738e0fa540b7932e.js",
-      "static/chunks/main-app-36357f5e2c721232.js",
-      "static/chunks/9081a741-1a659a26b5602d91.js",
-      "static/chunks/628-e6dc9770a6444adb.js",
-      "static/css/bccf1abf2386b898.css",
-      "static/chunks/app/intermixcambio/page-1e9580f8c1c09dcf.js"
     ],
     "/services/page": [
       "static/chunks/webpack-123d44d713934276.js",
