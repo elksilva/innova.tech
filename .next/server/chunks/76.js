@@ -487,7 +487,8 @@ const Btnwhastapp = ()=>{
                 className: (botonws_module_default()).boton,
                 alt: "icono de whatsapp",
                 width: 100,
-                height: 100
+                height: 100,
+                unoptimized: true
             })
         })
     });

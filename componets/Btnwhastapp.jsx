@@ -14,7 +14,8 @@ const Btnwhastapp = () => {
             className={styles.boton}
             alt="icono de whatsapp"
             width={100} 
-            height={100} 
+            height={100}
+            unoptimized  
           />
         </Link>
     </div>
