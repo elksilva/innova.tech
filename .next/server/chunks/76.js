@@ -583,7 +583,7 @@ const Footer = ()=>{
                 src: footer_map1,
                 width: 450,
                 height: 200,
-                alt: "imagen mapa",
+                alt: "imagen mapa01",
                 unoptimized: true
             })
         ]

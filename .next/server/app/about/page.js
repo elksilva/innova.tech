@@ -244,6 +244,18 @@ module.exports = require("url");
 
 /***/ }),
 
+/***/ 5420:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"style": {"fontFamily":"'__Poppins_c139e4', '__Poppins_Fallback_c139e4'","fontStyle":"normal"},
+	"className": "__className_c139e4"
+};
+
+
+/***/ }),
+
 /***/ 2738:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -341,12 +353,12 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 2090:
+/***/ 3029:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9103));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4664));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9103))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4664))
 
 /***/ }),
 
@@ -391,7 +403,7 @@ const Nosotros = ({ children })=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,178,12,76,142,502], () => (__webpack_exec__(2738)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,152,76,142,502], () => (__webpack_exec__(2738)));
 module.exports = __webpack_exports__;
 
 })();

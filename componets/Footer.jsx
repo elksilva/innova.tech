@@ -45,7 +45,7 @@ const Footer = () => {
           src={imgmap1} 
           width={450} 
           height={200} 
-          alt='imagen mapa' 
+          alt='imagen mapa01' 
           unoptimized
         />
     </div>

@@ -5,7 +5,7 @@
     background-position: 55% 41%;
     background-size: cover;
     padding: 5rem 2rem; 
-    @media (min-width:  768px) { 
+    @media (min-width:  992px) { 
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 5rem 6rem;
@@ -19,6 +19,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
     @media (min-width:  1200px) { 
         max-width: 80%;
     }
@@ -49,6 +51,7 @@
     font-size: 2.5rem;
     line-height: 1.2;
     text-transform: uppercase;
+    text-align: center;
     font-weight: 700;
     -webkit-text-stroke: 1.2px black;
     @media (min-width:  768px) { 
@@ -93,6 +96,8 @@
 }
 .imgmap {
     padding-bottom: 2rem;
+    width: 24.6rem;
+    height: 26.4rem;
 }
 
 /* CSS de Main de InterMix App */
@@ -165,16 +170,15 @@
 
 /* CSS para el Banner Intermix */
 .banner {
-    background-image: url(/img/banner-intermix.jpg);
+    background-image: url(/img/banner-intermix-movil.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
-    padding: 10rem 2rem;
-    @media (min-width:  768px) { 
-        background-position: 68% 60%;
-    }
-    @media (min-width:  1212px) { 
-        padding: 12rem 2rem;
+    padding: 12rem 2rem;
+    @media (min-width:  1200px) { 
+        background-image: url(/img/banner-intermix.jpg);
+        padding: 12rem 0rem;
+        background-position: 85% 60%;
     }
 }
 .texto {
@@ -182,9 +186,343 @@
     color: #f5f5f5;
     font-weight: 600;
     text-align: center;
-    margin: 0;
+    width: 90%;
+    margin: 0 auto;
     line-height: 1.4;
+    @media (min-width:  1200px) { 
+        width: 55%;
+        margin: 0 4rem 0 0;
+        font-size: 3rem;
+    }
+}
+
+/* CSS de la sessión de interfaces de usuario */
+.textomovil {
+    width: 95%;
+    margin: 0 auto;
+    @media (min-width:  992px) { 
+        display: none;
+    }
+}
+.textomovil h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    padding-top: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    @media (min-width:  992px) { 
+        padding-top: 0;
+        margin-bottom: 3rem;
+    }
+}
+.textomovil h2::after {
+    content: '';
+    display: block;
+    background-color: #ae1c34;
+    width: 8rem;
+    padding: .11rem;
+    margin: 1rem auto 0 auto;
+}
+.textomovil p {
+    line-height: 1.4;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 3rem;
     @media (min-width:  768px) { 
-        width: 60%;
+        width: 80%;
+        margin: 0 auto 3rem auto;
+    }
+}
+.boton1 {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: auto;
+    padding: 1.3rem 4rem;
+    background: #ae1c34;
+    color: #f5f5f5;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+.textomovil .boton1 {
+    margin: 0 auto;
+    width: 50%;
+}
+.boton1:hover {
+    background-color: #b1b0b0;
+    color: black;
+}
+.interfazcontenedor {
+    background-image: url(/img/vistamovil.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    width: 100%;
+    height: 372px;
+    margin-top: 2rem;
+    @media (min-width:  470px) { 
+        height: 450px;
+    }
+    @media (min-width:  560px) { 
+        height: 650px;
+    }
+    @media (min-width:  684px) { 
+        height: 750px;
+    }
+    @media (min-width:  992px) { 
+        background-image: url(/img/vistaweb.jpg);
+        /* background-position: 85% 60%; */
+        width: 100%;
+        height: 872px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.interfazcontenedor .bloquetexto {
+    display: none;
+    @media (min-width:  992px) { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        margin: 0 auto 0 2.5rem;
+    }
+}
+.interfazcontenedor .bloquetexto h2 {
+    color: black;
+    font-size: 4rem;
+    line-height: 1.2;
+}
+.interfazcontenedor .bloquetexto h2::after {
+    content: '';
+    display: block;
+    background-color: #ae1c34;
+    width: 8rem;
+    padding: .11rem;
+    margin-top: 1rem;
+}
+.interfazcontenedor .bloquetexto p {
+    @media (min-width:  992px) { 
+        margin-bottom: 3rem;
+    }
+}
+
+/* Interfaz del Propietario */
+.franja {
+    background-image: url(/img/franjaazul.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    width: 100%;
+    height: 102px;
+}
+.contenedorpropietario {
+    @media (min-width:  992px) { 
+        background-image: url(/img/propietariodesktop.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+        width: 100%;
+        height: 702px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.interfazpropietario {
+    background-image: url(/img/propietariomovil.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 202px;
+    margin: 2rem auto;
+    @media (min-width:  992px) { 
+        display: none;
+    }
+}
+.botonpropietario {
+    margin-bottom: 2rem;
+    @media (min-width:  992px) { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-column: 2 / 3;
+    }
+}
+.botonpropietario p {
+    line-height: 1.8;
+}
+
+/* Sessión de Módulos */
+.contenedormodulos {
+    margin-top: 4rem;
+    width: 100%;
+    
+    @media (min-width:  992px) { 
+        display: inline-block;
+    }
+}
+.modulos {
+    @media (min-width:  992px) { 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 3rem;
+    }
+}
+.modulo {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-items: end;
+    gap: 2rem;
+    padding: 1.5rem 1rem;
+    height: 100%;
+    @media (min-width:  992px) { 
+        gap: 1rem;
+    }
+}
+.grid4 {
+    @media (min-width:  992px) { 
+        grid-row: 2 / 3;
+        grid-column: 3 / 4; 
+    }   
+}
+.modulo1 {
+    background-color: #e2e2e2;
+    padding: 5rem 0;
+}
+.modulo2 {
+    background-image: linear-gradient(to right, #ae1c34d8 25%, 
+    #ae1c341c), url(/img/modulo2.jpg);
+    width: 100%;
+    height: auto;
+    /* background-position: 55% 41%; */
+    background-size: cover;
+    padding: 5rem 0rem; 
+}
+.modulo3 {
+    background-color: #7d091c;
+    padding: 5rem 0;
+}
+.iconmodulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 1.3rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+}
+.iconmodulo .iconfatags {
+    color: #001238;
+    font-size: 3rem;
+}
+.descripcionmodulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2rem;
+    @media (min-width:  992px) { 
+        justify-content: unset; 
+    }
+} 
+.modulo1 h3 {
+    color: #333;
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin: 0;
+    padding-right: 1rem;
+}
+.modulo2 h3 {
+    color: #f5f5f5;
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin: 0;
+    padding-right: 1rem;
+}
+.modulo3 h3 {
+    color: #f5f5f5;
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin: 0;
+    padding-right: 1rem;
+}
+.modulo1 p {
+    text-align: justify;
+    margin-bottom: 1rem;
+    color: #555;
+    @media (min-width:  768px) { 
+        margin: 0;
+    }
+}
+.modulo2 p {
+    text-align: justify;
+    margin-bottom: 1rem;
+    color: #e2e2e2;
+    @media (min-width:  768px) { 
+        margin: 0;
+    }
+}
+.modulo3 p {
+    text-align: justify;
+    margin-bottom: 1rem;
+    color: #e2e2e2;
+    @media (min-width:  768px) { 
+        margin: 0;
+    }
+}
+
+/* CSS Porqué InterMix */
+.poqueintermix {
+    margin-bottom: 2rem;
+    
+    @media (min-width:  992px) { 
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+    }
+    @media (min-width:  1200px) { 
+        grid-template-columns: 3fr 2fr;
+    }
+}
+.descripcionporqueintermix {
+    
+    @media (min-width:  992px) { 
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-row: 1 / 2;
+        grid-column: 2 / 3; 
+        margin: 3rem 0;
+    }
+    @media (min-width:  1200px) { 
+        margin: 10rem 0;
+    }
+}
+.descripcionporqueintermix p {
+    line-height: 1.8;
+}
+.divimagen {
+    margin-top: 3rem;
+    @media (min-width:  992px) { 
+        margin-top: 0;
+    }
+}
+.divimagen .imagen1 {
+    width: auto;
+    height: 25rem;
+    @media (min-width:  520px) { 
+        height: 35rem;
+    }
+    @media (min-width:  768px) { 
+        height: 42rem;
+    }
+    @media (min-width:  902px) { 
+        height: 49rem;
     }
 }

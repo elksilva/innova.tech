@@ -43,14 +43,14 @@ const MainIntermix = () => {
                     <FaRegGrin className={styles.icon}/>
                 </div>
                 <h3>Satisfacción del Cliente</h3>
-                <p>Que mejor que tener un cliente satisfecho ofreciéndole una fidelización en su día de cumpleaños o por su fidelidad con su negocio, con InterMix podrás consentirlos en esos momentos especiales</p>
+                <p>Que mejor que tener un cliente satisfecho ofreciéndole una fidelización en su día de cumpleaños o por su fidelidad con su negocio, con InterMix podrás consentirlos en esos momentos especiales.</p>
             </div>
             <div className={styles.bloque}>
                 <div className={styles.bloqueicon}>
                     <FaHeadset className={styles.icon}/>
                 </div>
-                <h3>Soporte 24/7</h3>
-                <p>Nuestro equipo de trabajo está pendiente de ti para ayudarte en el momento que lo requieras, nuestro objetivo es brindarte un servicio de calidad</p>
+                <h3>Asistencia Excepcional</h3>
+                <p>Nuestro equipo de trabajo está pendiente de ti para ayudarte en el momento que lo requieras, nuestro objetivo es brindarte un servicio de calidad.</p>
             </div>
         </div>
     </div>

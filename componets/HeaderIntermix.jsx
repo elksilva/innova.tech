@@ -10,8 +10,8 @@ const HeaderIntermix = () => {
             <Image 
             className={styles.imgmap} 
             src={logointermix}
-            width={185} 
-            height={200} 
+            width={215} 
+            height={230} 
             alt='imagen logotipo'
             unoptimized
             />
