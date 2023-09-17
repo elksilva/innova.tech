@@ -67,21 +67,30 @@ const Logonav = () => {
                     className={`${styles.navmenuoculto} ${isOpen && `${styles.open}`}`}
                     ref={menuRef}
                 >
-                        <Link className={styles.btnneon} href='/'>
+                        <Link 
+                            onClick={toggleMenu}
+                            className={styles.btnneon} href='/'
+                        >
                             <span id={styles.span1}></span>
                             <span id={styles.span2}></span>
                             <span id={styles.span3}></span>
                             <span id={styles.span4}></span>
                             Inicio
                         </Link>
-                        <Link className={styles.btnneon} href='/about'>
+                        <Link 
+                            onClick={toggleMenu}
+                            className={styles.btnneon} href='/about'
+                        >
                             <span id={styles.span1}></span>
                             <span id={styles.span2}></span>
                             <span id={styles.span3}></span>
                             <span id={styles.span4}></span>
                             Nosotros
                         </Link>
-                        <Link className={styles.btnneon} href='/services'>
+                        <Link 
+                            onClick={toggleMenu}
+                            className={styles.btnneon} href='/services'
+                        >
                             <span id={styles.span1}></span>
                             <span id={styles.span2}></span>
                             <span id={styles.span3}></span>
@@ -89,7 +98,10 @@ const Logonav = () => {
                             Servicios
                         </Link>
                         
-                        <Link className={styles.btnneon} href='/contacts'>
+                        <Link 
+                            onClick={toggleMenu}
+                            className={styles.btnneon} href='/contacts'
+                        >
                             <span id={styles.span1}></span>
                             <span id={styles.span2}></span>
                             <span id={styles.span3}></span>

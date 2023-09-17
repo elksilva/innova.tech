@@ -298,6 +298,7 @@ const Logonav = ()=>{
                         ref: menuRef,
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
+                                onClick: toggleMenu,
                                 className: (barrainfo_module_default()).btnneon,
                                 href: "/",
                                 children: [
@@ -317,6 +318,7 @@ const Logonav = ()=>{
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
+                                onClick: toggleMenu,
                                 className: (barrainfo_module_default()).btnneon,
                                 href: "/about",
                                 children: [
@@ -336,6 +338,7 @@ const Logonav = ()=>{
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
+                                onClick: toggleMenu,
                                 className: (barrainfo_module_default()).btnneon,
                                 href: "/services",
                                 children: [
@@ -355,6 +358,7 @@ const Logonav = ()=>{
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
+                                onClick: toggleMenu,
                                 className: (barrainfo_module_default()).btnneon,
                                 href: "/contacts",
                                 children: [
