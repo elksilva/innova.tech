@@ -121,9 +121,9 @@ const Interfazintermix = () => {
                 width={1100} 
                 height={800} 
                 alt='imagen InterMix App' 
-                unoptimized
+                unoptimized 
               />
-            </div>
+            </div> 
         </div>
     </>
   )

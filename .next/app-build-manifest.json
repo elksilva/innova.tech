@@ -6,9 +6,9 @@
       "static/chunks/596-738e0fa540b7932e.js",
       "static/chunks/main-app-36357f5e2c721232.js",
       "static/chunks/9081a741-1a659a26b5602d91.js",
-      "static/chunks/628-a4947607e92bb7e9.js",
+      "static/chunks/628-e6dc9770a6444adb.js",
       "static/css/fabb7438393961c0.css",
-      "static/chunks/843-95040a61e0c22e05.js",
+      "static/chunks/843-27a6639f48062165.js",
       "static/chunks/844-3076c1b7e96454ac.js",
       "static/chunks/913-ffc385af06644332.js",
       "static/css/9456e9b84d5dcf39.css",
@@ -20,9 +20,9 @@
       "static/chunks/596-738e0fa540b7932e.js",
       "static/chunks/main-app-36357f5e2c721232.js",
       "static/chunks/9081a741-1a659a26b5602d91.js",
-      "static/chunks/628-a4947607e92bb7e9.js",
+      "static/chunks/628-e6dc9770a6444adb.js",
       "static/css/f54a00ef1b0e3566.css",
-      "static/chunks/app/layout-242683133aea6c4a.js"
+      "static/chunks/app/layout-bc074386efdfbfa4.js"
     ],
     "/privacy/page": [
       "static/chunks/webpack-08fd6fc968cc8e3a.js",
@@ -37,33 +37,11 @@
       "static/chunks/fd9d1056-1e30049a2d92c543.js",
       "static/chunks/596-738e0fa540b7932e.js",
       "static/chunks/main-app-36357f5e2c721232.js",
-      "static/chunks/628-a4947607e92bb7e9.js",
+      "static/chunks/628-e6dc9770a6444adb.js",
       "static/css/fabb7438393961c0.css",
-      "static/chunks/843-95040a61e0c22e05.js",
+      "static/chunks/843-27a6639f48062165.js",
       "static/css/a87316b967d240fd.css",
       "static/chunks/app/about/page-df2c347797228902.js"
-    ],
-    "/services/page": [
-      "static/chunks/webpack-08fd6fc968cc8e3a.js",
-      "static/chunks/fd9d1056-1e30049a2d92c543.js",
-      "static/chunks/596-738e0fa540b7932e.js",
-      "static/chunks/main-app-36357f5e2c721232.js",
-      "static/chunks/628-a4947607e92bb7e9.js",
-      "static/css/fabb7438393961c0.css",
-      "static/chunks/843-95040a61e0c22e05.js",
-      "static/chunks/844-3076c1b7e96454ac.js",
-      "static/css/f94d6578c6e77c04.css",
-      "static/chunks/app/services/page-4517409ec4e0ec0a.js"
-    ],
-    "/intermixcambio01/page": [
-      "static/chunks/webpack-08fd6fc968cc8e3a.js",
-      "static/chunks/fd9d1056-1e30049a2d92c543.js",
-      "static/chunks/596-738e0fa540b7932e.js",
-      "static/chunks/main-app-36357f5e2c721232.js",
-      "static/chunks/9081a741-1a659a26b5602d91.js",
-      "static/chunks/628-a4947607e92bb7e9.js",
-      "static/css/9223f6efe3483810.css",
-      "static/chunks/app/intermixcambio01/page-e0dd1e8ad6711a20.js"
     ],
     "/contacts/page": [
       "static/chunks/webpack-08fd6fc968cc8e3a.js",
@@ -71,11 +49,33 @@
       "static/chunks/596-738e0fa540b7932e.js",
       "static/chunks/main-app-36357f5e2c721232.js",
       "static/chunks/9081a741-1a659a26b5602d91.js",
-      "static/chunks/628-a4947607e92bb7e9.js",
+      "static/chunks/628-e6dc9770a6444adb.js",
       "static/css/fabb7438393961c0.css",
-      "static/chunks/843-95040a61e0c22e05.js",
+      "static/chunks/843-27a6639f48062165.js",
       "static/css/8847c30f279e93b1.css",
       "static/chunks/app/contacts/page-9013d409d5d20009.js"
+    ],
+    "/intermixcambio01/page": [
+      "static/chunks/webpack-08fd6fc968cc8e3a.js",
+      "static/chunks/fd9d1056-1e30049a2d92c543.js",
+      "static/chunks/596-738e0fa540b7932e.js",
+      "static/chunks/main-app-36357f5e2c721232.js",
+      "static/chunks/9081a741-1a659a26b5602d91.js",
+      "static/chunks/628-e6dc9770a6444adb.js",
+      "static/css/9223f6efe3483810.css",
+      "static/chunks/app/intermixcambio01/page-c2f5b2301b1b4fce.js"
+    ],
+    "/services/page": [
+      "static/chunks/webpack-08fd6fc968cc8e3a.js",
+      "static/chunks/fd9d1056-1e30049a2d92c543.js",
+      "static/chunks/596-738e0fa540b7932e.js",
+      "static/chunks/main-app-36357f5e2c721232.js",
+      "static/chunks/628-e6dc9770a6444adb.js",
+      "static/css/fabb7438393961c0.css",
+      "static/chunks/843-27a6639f48062165.js",
+      "static/chunks/844-3076c1b7e96454ac.js",
+      "static/css/f94d6578c6e77c04.css",
+      "static/chunks/app/services/page-4517409ec4e0ec0a.js"
     ]
   }
 }
