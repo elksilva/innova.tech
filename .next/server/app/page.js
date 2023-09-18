@@ -278,7 +278,7 @@ const tree = {
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2758)), "C:\\Users\\Jose Silva\\Desktop\\innovatechnuevo\\app\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3649)), "C:\\Users\\Jose Silva\\Desktop\\innovatechnuevo\\app\\page.jsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -332,15 +332,17 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 1944:
+/***/ 6198:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9103));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4664));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8354));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9013));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3768));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9103));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4664))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 954, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6739))
 
 /***/ }),
 
@@ -597,7 +599,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 2758:
+/***/ 3649:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -612,6 +614,67 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(6786);
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(5124);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(4178);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+;// CONCATENATED MODULE: ./public/img/logointermix.png
+/* harmony default export */ const logointermix = ({"src":"/_next/static/media/logointermix.f6040bc2.png","height":337,"width":344,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA30lEQVR42mPIVSxiZgCCesV0henyUTUbpD0r9knayDMAwUlRU6AcEHgrV7LWKGY0TJOPWglUUH9Awib+jIghG1jSUbFBNlqpIqFOMWPpZIWY+E3S7tn7JWyXnRPRa70hoCzPYKXYnBuvVF5XqZiVxQAFBySs48+J6K+8xa9YymCl1JwXp1S+HqggFUlB7lkR/apb/ArFDPaKjbIxShV1tYoZy6bIx2QBrYgHWrH4vLBeItgKEIhSKgc6MjMW6MhaoCOX7ZewabogogNxZA7cm2lyQAUlQAVV+yRslWDeBAAsEUgddsncOAAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
+// EXTERNAL MODULE: ./app/Styles/intermix.module.css
+var intermix_module = __webpack_require__(5249);
+var intermix_module_default = /*#__PURE__*/__webpack_require__.n(intermix_module);
+;// CONCATENATED MODULE: ./componets/Seccionintermix.jsx
+
+
+
+
+
+const Seccionintermix = ()=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        className: (intermix_module_default()).seccionintermix,
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: (intermix_module_default()).secciontexto,
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: (intermix_module_default()).logointermix,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        className: (intermix_module_default()).imagen1,
+                        src: logointermix,
+                        width: 244,
+                        height: 237,
+                        alt: "Logo InterMix App",
+                        unoptimized: true
+                    })
+                }),
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: (intermix_module_default()).bloquedescripcion,
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                            children: "Nuestra Marca"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                            children: "InterMix"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "App de Reservas"
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                            className: (intermix_module_default()).botonseccion,
+                            href: "/intermix",
+                            children: "Saber m\xe1s"
+                        })
+                    ]
+                })
+            ]
+        })
+    });
+};
+/* harmony default export */ const componets_Seccionintermix = (Seccionintermix);
+
 // EXTERNAL MODULE: ./componets/Slider.jsx
 var Slider = __webpack_require__(8052);
 // EXTERNAL MODULE: ./componets/We.jsx + 1 modules
@@ -642,6 +705,7 @@ var Services = __webpack_require__(2303);
 
 
 
+
 const metadata = {
     title: "Home - InnovaTech Quind\xedo",
     description: "Soporte y Desarrollo Inform\xe1tico - Dise\xf1o de p\xe1ginas web - Aplicaciones Web - Reparaci\xf3n de Computadoras - Impresoras",
@@ -654,11 +718,24 @@ function Home() {
             /*#__PURE__*/ jsx_runtime_.jsx(We/* default */.Z, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Services/* default */.ZP, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Proyectos, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(componets_Seccionintermix, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Formulario/* default */.ZP, {})
         ]
     });
 }
 
+
+/***/ }),
+
+/***/ 6739:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/logointermix.f6040bc2.png","height":337,"width":344,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA30lEQVR42mPIVSxiZgCCesV0henyUTUbpD0r9knayDMAwUlRU6AcEHgrV7LWKGY0TJOPWglUUH9Awib+jIghG1jSUbFBNlqpIqFOMWPpZIWY+E3S7tn7JWyXnRPRa70hoCzPYKXYnBuvVF5XqZiVxQAFBySs48+J6K+8xa9YymCl1JwXp1S+HqggFUlB7lkR/apb/ArFDPaKjbIxShV1tYoZy6bIx2QBrYgHWrH4vLBeItgKEIhSKgc6MjMW6MhaoCOX7ZewabogogNxZA7cm2lyQAUlQAVV+yRslWDeBAAsEUgddsncOAAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
 
 /***/ })
 
@@ -669,7 +746,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,152,0,699,492,76,142,930,502,861], () => (__webpack_exec__(7974)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,152,0,699,580,76,142,930,502,861,249], () => (__webpack_exec__(7974)));
 module.exports = __webpack_exports__;
 
 })();

@@ -1,4 +1,5 @@
 
+import Seccionintermix from "@/componets/Seccionintermix"
 import Slider from "@/componets/Slider"
 import We from "@/componets/We"
 import Formulario from "../componets/Formulario"
@@ -19,6 +20,7 @@ export default function Home() {
       <We/>
       <Services/>
       <Proyectos/>
+      <Seccionintermix/>
       <Formulario/>  
     </main> 
   )
