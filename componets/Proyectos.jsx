@@ -28,6 +28,7 @@ const Proyectos = () => {
                         <ReactPlayer
                             className={styles.bloquevideo}
                             url="https://www.youtube.com/watch?v=Z5GHn39fMuk"
+                            rel="nofollow"
                             width="100%" 
                             height="350px"
                             controls={true}
@@ -35,7 +36,7 @@ const Proyectos = () => {
                         ></ReactPlayer>
                     }
                     <div className={styles.bloqueDescriccion}>
-                        <Link href="https://fundacioneducativacarlomagno.com.co/">
+                        <Link href="https://fundacioneducativacarlomagno.com.co/" rel="nofollow">
                             <Image className={styles.logoEmpresa} src={logo} width={150} height={120} alt='Logo Empresa' unoptimized/>
                         </Link>
                         <div className={styles.textoProyecto}>
@@ -49,6 +50,7 @@ const Proyectos = () => {
                         <ReactPlayer
                             className={styles.bloquevideo}
                             url="https://youtu.be/a1ONgOVcfUk"
+                            rel="nofollow"
                             width="100%" 
                             height="350px"
                             controls={true}
@@ -56,7 +58,7 @@ const Proyectos = () => {
                         ></ReactPlayer>
                     }
                     <div className={styles.bloqueDescriccion}>
-                        <Link href="#">
+                        <Link href="https://innovatechquindio.net/intermix">
                             <Image className={styles.logoEmpresa} src={logo2} width={150} height={120} alt='Logo Empresa' unoptimized/>
                         </Link>
                         <div className={styles.textoProyecto}>
@@ -70,6 +72,7 @@ const Proyectos = () => {
                         <ReactPlayer
                             className={styles.bloquevideo}
                             url="https://youtu.be/6dSxWWeu0AM"
+                            rel="nofollow"
                             width="100%" 
                             height="350px"
                             controls={true}
@@ -77,7 +80,7 @@ const Proyectos = () => {
                         ></ReactPlayer>
                     }
                     <div className={styles.bloqueDescriccion}>
-                        <Link href="https://fundacioneducativacarlomagno.com.co/">
+                        <Link href="https://fundacioneducativacarlomagno.com.co/" rel="nofollow">
                             <Image className={styles.logoEmpresa} src={logo3} width={150} height={120} alt='Logo Empresa' unoptimized/>
                         </Link>
                         <div className={styles.textoProyecto}>
@@ -91,6 +94,7 @@ const Proyectos = () => {
                         <ReactPlayer
                             className={styles.bloquevideo}
                             url="https://youtu.be/mssiupYAT2M"
+                            rel="nofollow"
                             width="100%" 
                             height="350px"
                             controls={true}
@@ -98,7 +102,7 @@ const Proyectos = () => {
                         ></ReactPlayer>
                     }
                     <div className={styles.bloqueDescriccion}>
-                        <Link href="https://pilotto.co/es/">
+                        <Link href="https://pilotto.co/es/" rel="nofollow">
                             <Image className={styles.logoEmpresa} src={logo1} width={150} height={120} alt='Logo Empresa' unoptimized/>
                         </Link>
                         <div className={styles.textoProyecto}>

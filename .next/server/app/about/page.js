@@ -373,25 +373,62 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _componets_Slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8052);
-/* harmony import */ var _componets_We__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9500);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1528);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _componets_Slider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8052);
+/* harmony import */ var _componets_We__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9500);
+
 
 
 
 const metadata = {
-    title: "Nosotros - InnovaTech Quind\xedo",
-    description: "Soporte y Desarrollo Inform\xe1tico - Dise\xf1o de p\xe1ginas web - Aplicaciones Web - Reparaci\xf3n de Computadoras - Impresoras",
+    title: "Nosotros - InnovaTech Quind\xedo Desarrollo de Aplicaciones Web",
+    description: "Soporte y Desarrollo Software - Dise\xf1o de p\xe1ginas web - Aplicaciones Web - Reparaci\xf3n de Computadoras - Impresoras, Software para reserva de citas online.",
     keywords: "Desarrollo Web, Aplicaciones web, e-commerce, soporte, reparaci\xf3n de computadores e impresoras, Quind\xedo, Colombia"
 };
 const Nosotros = ({ children })=>{
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Slider__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .ZP, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_We__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {})
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
+                    rel: "canonical",
+                    href: "https://innovatechquindio.net/about"
+                }, "canonical")
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Slider__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .ZP, {}),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_We__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {})
         ]
     });
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Nosotros);
+
+
+/***/ }),
+
+/***/ 1528:
+/***/ ((module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return NoopHead;
+    }
+}));
+function NoopHead() {
+    return null;
+}
+if ((typeof exports.default === "function" || typeof exports.default === "object" && exports.default !== null) && typeof exports.default.__esModule === "undefined") {
+    Object.defineProperty(exports.default, "__esModule", {
+        value: true
+    });
+    Object.assign(exports.default, exports);
+    module.exports = exports.default;
+} //# sourceMappingURL=noop-head.js.map
 
 
 /***/ })

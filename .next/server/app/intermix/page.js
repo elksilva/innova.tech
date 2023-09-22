@@ -921,13 +921,19 @@ const __default__ = proxy.default;
 
 
 const metadata = {
-    title: "InterMix - App de Reservas",
-    description: "Sistema para la gesti\xf3n de reservas de citas de barber\xeda, sal\xf3n de belleza, Spa y cualquier negocio que maneje reservas de citas online.",
-    keywords: "Software reserva de citas, software reservas citas, sistema para barber\xeda, sistema sal\xf3n de belleza y spa, reservas online"
+    title: "InterMix App | Software de Reserva de Citas Online Barber\xeda",
+    description: "Sistema para la gesti\xf3n de reservas de citas de barber\xeda, sal\xf3n de belleza, Spa y cualquier negocio que maneje reservas de citas online. Software moderno.",
+    keywords: "Software reserva de citas online, sistema para reservas citas, sistema para barber\xeda, sistema sal\xf3n de belleza y spa, reservas online, toma de citas desde celular, aumenta tus ventas, sistema 100% online"
 };
 const Intermix = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                    rel: "canonical",
+                    href: "https://innovatechquindio.net/intermix"
+                }, "canonical")
+            }),
             /*#__PURE__*/ jsx_runtime_.jsx(componets_HeaderIntermix, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(MainIntermix, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(componets_BannerIntermix, {}),

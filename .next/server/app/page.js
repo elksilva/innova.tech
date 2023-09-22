@@ -332,17 +332,17 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 8829:
+/***/ 6326:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8354));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9013));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 954, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6739));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9103));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4664));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3768))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3768));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9013))
 
 /***/ }),
 
@@ -417,6 +417,7 @@ const Proyectos = ()=>{
                                 hasWindow && /*#__PURE__*/ jsx_runtime_.jsx(lib/* default */.Z, {
                                     className: (proyectos_module_default()).bloquevideo,
                                     url: "https://www.youtube.com/watch?v=Z5GHn39fMuk",
+                                    rel: "nofollow",
                                     width: "100%",
                                     height: "350px",
                                     controls: true,
@@ -427,6 +428,7 @@ const Proyectos = ()=>{
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                             href: "https://fundacioneducativacarlomagno.com.co/",
+                                            rel: "nofollow",
                                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                 className: (proyectos_module_default()).logoEmpresa,
                                                 src: fcm,
@@ -457,6 +459,7 @@ const Proyectos = ()=>{
                                 hasWindow && /*#__PURE__*/ jsx_runtime_.jsx(lib/* default */.Z, {
                                     className: (proyectos_module_default()).bloquevideo,
                                     url: "https://youtu.be/a1ONgOVcfUk",
+                                    rel: "nofollow",
                                     width: "100%",
                                     height: "350px",
                                     controls: true,
@@ -466,7 +469,7 @@ const Proyectos = ()=>{
                                     className: (proyectos_module_default()).bloqueDescriccion,
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                            href: "#",
+                                            href: "https://innovatechquindio.net/intermix",
                                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                 className: (proyectos_module_default()).logoEmpresa,
                                                 src: LogoInnovaTech/* default */.Z,
@@ -497,6 +500,7 @@ const Proyectos = ()=>{
                                 hasWindow && /*#__PURE__*/ jsx_runtime_.jsx(lib/* default */.Z, {
                                     className: (proyectos_module_default()).bloquevideo,
                                     url: "https://youtu.be/6dSxWWeu0AM",
+                                    rel: "nofollow",
                                     width: "100%",
                                     height: "350px",
                                     controls: true,
@@ -507,6 +511,7 @@ const Proyectos = ()=>{
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                             href: "https://fundacioneducativacarlomagno.com.co/",
+                                            rel: "nofollow",
                                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                 className: (proyectos_module_default()).logoEmpresa,
                                                 src: fcm,
@@ -537,6 +542,7 @@ const Proyectos = ()=>{
                                 hasWindow && /*#__PURE__*/ jsx_runtime_.jsx(lib/* default */.Z, {
                                     className: (proyectos_module_default()).bloquevideo,
                                     url: "https://youtu.be/mssiupYAT2M",
+                                    rel: "nofollow",
                                     width: "100%",
                                     height: "350px",
                                     controls: true,
@@ -547,6 +553,7 @@ const Proyectos = ()=>{
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                             href: "https://pilotto.co/es/",
+                                            rel: "nofollow",
                                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                 className: (proyectos_module_default()).logoEmpresa,
                                                 src: ptt,
@@ -707,13 +714,19 @@ var Services = __webpack_require__(2303);
 
 
 const metadata = {
-    title: "Home - InnovaTech Quind\xedo",
-    description: "Soporte y Desarrollo Inform\xe1tico - Dise\xf1o de p\xe1ginas web - Aplicaciones Web - Reparaci\xf3n de Computadoras - Impresoras",
-    keywords: "Desarrollo Web, Aplicaciones web, e-commerce, soporte, reparaci\xf3n de computadores e impresoras, Quind\xedo, Colombia"
+    title: "InnovaTech Quind\xedo | Software reserva de citas online",
+    description: "Sistema para reservas de citas online, desarrollo web, aplicaciones web, soporte y reparaci\xf3n de computadores e impresoras, Quind\xedo, Colombia.",
+    keywords: "Reserva de citas online, Desarrollo Web, Aplicaciones web, e-commerce, soporte, reparaci\xf3n de computadores e impresoras Quind\xedo"
 };
 function Home() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
         children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                    rel: "canonical",
+                    href: "https://innovatechquindio.net/"
+                }, "canonical")
+            }),
             /*#__PURE__*/ jsx_runtime_.jsx(Slider/* default */.ZP, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(We/* default */.Z, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Services/* default */.ZP, {}),

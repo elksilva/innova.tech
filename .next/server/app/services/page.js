@@ -379,13 +379,19 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const metadata = {
-    title: "Servicios - InnovaTech Quind\xedo",
-    description: "Soporte y Desarrollo Inform\xe1tico - Dise\xf1o de p\xe1ginas web - Aplicaciones Web - Reparaci\xf3n de Computadoras - Impresoras",
+    title: "Servicios | Software de Reserva de Citas Online Barber\xeda",
+    description: "Soporte y Desarrollo Software - Dise\xf1o de p\xe1ginas web - Aplicaciones Web - Reparaci\xf3n de Computadoras - Impresoras",
     keywords: "Desarrollo Web, Aplicaciones web, e-commerce, soporte, reparaci\xf3n de computadores e impresoras, Quind\xedo, Colombia"
 };
 function page() {
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
+                    rel: "canonical",
+                    href: "https://innovatechquindio.net/services"
+                }, "canonical")
+            }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Slider__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .ZP, {}),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Espacioblanco__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {}),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Services__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .ZP, {}),
