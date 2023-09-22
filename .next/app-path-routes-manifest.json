@@ -3,7 +3,7 @@
   "/page": "/",
   "/privacy/page": "/privacy",
   "/contacts/page": "/contacts",
-  "/intermix/page": "/intermix",
   "/about/page": "/about",
+  "/intermix/page": "/intermix",
   "/services/page": "/services"
 }
