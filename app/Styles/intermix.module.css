@@ -279,7 +279,7 @@
 @media (min-width:  1200px) {
     .banner {
         background-image: url(/img/banner-intermix.jpg);
-        padding: 12rem 0rem;
+        /* padding: 12rem 0rem; */
         background-position: 85% 60%;
     }
 }
