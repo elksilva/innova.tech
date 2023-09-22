@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Slider from "@/componets/Slider";
 import We from "@/componets/We";
 
@@ -11,13 +10,6 @@ export const metadata = {
 const Nosotros = ({children}) => {
   return (
     <>
-      <div>
-        <link
-            rel="canonical"
-            href="https://innovatechquindio.net/about"
-            key="canonical"
-        />
-      </div>
       <Slider/>
       <We/>
     </>

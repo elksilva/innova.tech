@@ -11,13 +11,6 @@ export const metadata = {
 export default function page() {
   return (
     <>
-    <div>
-        <link
-            rel="canonical"
-            href="https://innovatechquindio.net/services"
-            key="canonical"
-        />
-      </div>
       <Slider/>
       <Espacioblanco/>
       <Services/>

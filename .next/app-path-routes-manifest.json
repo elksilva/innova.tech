@@ -2,9 +2,9 @@
   "/favicon.ico/route": "/favicon.ico",
   "/sitemap.xml/route": "/sitemap.xml",
   "/page": "/",
-  "/about/page": "/about",
-  "/intermix/page": "/intermix",
   "/privacy/page": "/privacy",
+  "/about/page": "/about",
   "/contacts/page": "/contacts",
+  "/intermix/page": "/intermix",
   "/services/page": "/services"
 }
