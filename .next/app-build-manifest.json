@@ -24,26 +24,6 @@
       "static/css/c1b87a1908292765.css",
       "static/chunks/app/page-50a7ad0962d5c9c8.js"
     ],
-    "/privacy/page": [
-      "static/chunks/webpack-e59d6e66fca0dd6e.js",
-      "static/chunks/fd9d1056-1e30049a2d92c543.js",
-      "static/chunks/596-738e0fa540b7932e.js",
-      "static/chunks/main-app-36357f5e2c721232.js",
-      "static/css/a0157f7dd649b24d.css",
-      "static/chunks/app/privacy/page-b287902b3c5b1985.js"
-    ],
-    "/contacts/page": [
-      "static/chunks/webpack-e59d6e66fca0dd6e.js",
-      "static/chunks/fd9d1056-1e30049a2d92c543.js",
-      "static/chunks/596-738e0fa540b7932e.js",
-      "static/chunks/main-app-36357f5e2c721232.js",
-      "static/chunks/9081a741-1a659a26b5602d91.js",
-      "static/chunks/628-a4947607e92bb7e9.js",
-      "static/css/fabb7438393961c0.css",
-      "static/chunks/843-95040a61e0c22e05.js",
-      "static/css/135ddc4144c179e7.css",
-      "static/chunks/app/contacts/page-d4ddbc4378a71412.js"
-    ],
     "/about/page": [
       "static/chunks/webpack-e59d6e66fca0dd6e.js",
       "static/chunks/fd9d1056-1e30049a2d92c543.js",
@@ -64,6 +44,26 @@
       "static/chunks/628-a4947607e92bb7e9.js",
       "static/css/e282fce49e5de7c1.css",
       "static/chunks/app/intermix/page-6360850d4761dce0.js"
+    ],
+    "/privacy/page": [
+      "static/chunks/webpack-e59d6e66fca0dd6e.js",
+      "static/chunks/fd9d1056-1e30049a2d92c543.js",
+      "static/chunks/596-738e0fa540b7932e.js",
+      "static/chunks/main-app-36357f5e2c721232.js",
+      "static/css/a0157f7dd649b24d.css",
+      "static/chunks/app/privacy/page-b287902b3c5b1985.js"
+    ],
+    "/contacts/page": [
+      "static/chunks/webpack-e59d6e66fca0dd6e.js",
+      "static/chunks/fd9d1056-1e30049a2d92c543.js",
+      "static/chunks/596-738e0fa540b7932e.js",
+      "static/chunks/main-app-36357f5e2c721232.js",
+      "static/chunks/9081a741-1a659a26b5602d91.js",
+      "static/chunks/628-a4947607e92bb7e9.js",
+      "static/css/fabb7438393961c0.css",
+      "static/chunks/843-95040a61e0c22e05.js",
+      "static/css/135ddc4144c179e7.css",
+      "static/chunks/app/contacts/page-d4ddbc4378a71412.js"
     ],
     "/services/page": [
       "static/chunks/webpack-e59d6e66fca0dd6e.js",
