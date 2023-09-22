@@ -623,12 +623,6 @@ var dist_default = /*#__PURE__*/__webpack_require__.n(dist);
 
 function RootLayout({ children, pageProps }) {
     const [loading, setLoading] = (0,react_.useState)(true);
-    // useEffect(() => {
-    //   // Simula la carga de contenido (esto puede ser una llamada a una API u otra carga de datos)
-    //   setTimeout(() => {
-    //     setLoading(false);
-    //   }, 2000); // Simulamos una carga de 2 segundos
-    // }, []);
     return /*#__PURE__*/ jsx_runtime_.jsx("html", {
         lang: "es",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("body", {

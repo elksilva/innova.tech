@@ -20,13 +20,6 @@ export default function RootLayout({ children, pageProps }) {
 
   const [loading, setLoading] = useState(true);
 
-  // useEffect(() => {
-  //   // Simula la carga de contenido (esto puede ser una llamada a una API u otra carga de datos)
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 2000); // Simulamos una carga de 2 segundos
-  // }, []);
-
   return (
     <html lang="es">
       <body className={fuentePrimaria.className}>

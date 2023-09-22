@@ -6,8 +6,9 @@
     padding: 1rem 3rem;
     line-height: 2.3rem;
     font-size: 1.3rem;
-    
-    @media (min-width:  768px) { 
+}
+@media (min-width:  768px) { 
+    .barrasuperior {
         flex-direction: row;
         justify-content: space-between;
         padding: 1.4rem 3.5rem 1.4rem 3.5rem;
@@ -16,7 +17,9 @@
 
 .barrasuperior .infodireccion {
     display: none;
-    @media (min-width:  768px) { 
+}
+@media (min-width:  768px) { 
+    .barrasuperior .infodireccion {
         display: flex;
         justify-content: space-between;
         font-weight: normal;
@@ -45,12 +48,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    @media (min-width:  768px) { 
-        flex-direction: row;
+}
+@media (min-width:  768px) { 
+    .barraRight {
+        flex-direction: row; 
     }
 }
-.barraRight .telefono {
-    @media (min-width:  768px) { 
+@media (min-width:  768px) { 
+    .barraRight .telefono {
         display: none;
     }
 }
@@ -68,7 +73,9 @@
     display: flex;
     gap: 3rem;
     align-items: center;
-    @media (min-width:  768px) { 
+}
+@media (min-width:  768px) { 
+    .barraRight .sociales {
         justify-content: center;
         gap: 2rem; 
     }
@@ -107,7 +114,9 @@
 /* Estilo para logo y menu navegación del archivo Logonav.js*/
 .contenidoheader {
     max-width: 1400px;
-    @media (min-width:  920px) { 
+}
+@media (min-width:  920px) { 
+    .contenidoheader {
         max-width: none;
     }
 }
@@ -117,7 +126,9 @@
     justify-content: space-between;
     padding: .5rem 2rem;
     background-color: white;
-    @media (min-width:  768px) { 
+}
+@media (min-width:  768px) { 
+    .contenidoheader .barra {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -127,7 +138,9 @@
 /* Estilos para la navegación del archivo Logonav.js */
 .contenidoheader .panel {
     display: none;
-    @media (min-width:  768px) { 
+}
+@media (min-width:  768px) { 
+    .contenidoheader .panel {
         display: flex;
     }
 }
@@ -138,7 +151,9 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    @media (min-width: 920px) { 
+}
+@media (min-width:  920px) { 
+    .contenidoheader .barra .logo {
         display: block;
         margin: 0;
         width: 24rem;
@@ -149,7 +164,9 @@
 .logo .logoimg {
     max-width: 22rem;
     height: auto;
-    @media (min-width:  768px) { 
+}
+@media (min-width:  768px) { 
+    .logo .logoimg {
         width: 100%;
         padding-left: 0;
     }
@@ -157,21 +174,23 @@
 
 .barra .iconburguer {
     font-size: 3rem;
-    @media (min-width:  768px) { 
+}
+@media (min-width:  768px) { 
+    .barra .iconburguer {
         display: none;
     }
 }
 
 /* Ocultar menú hamburguesa */
-.logo .iconburguer {
-    @media (min-width:  768px) { 
+@media (min-width:  768px) { 
+    .logo .iconburguer {
         display: none;
     }
 }
 
 /* Estilos para Menú Navegación Versión Desktop */
-.panel {
-    @media (min-width:  570px) { 
+@media (min-width:  570px) { 
+    .panel {
         position: fixed;
         z-index: 998;
         top: 0;
@@ -182,14 +201,18 @@
         background-color: rgb(143, 112, 112);
         transition: transform .3s ease;
         transform: translate(0, -100%);
-        @media (min-width:  768px) { 
-            position: relative; 
-            width: auto;
-            background-color: transparent;
-            transform: translate(0, 0)
-        }
     }
-} 
+}
+@media (min-width:  768px) { 
+    .panel {
+        position: relative; 
+        width: auto;
+        background-color: transparent;
+        transform: translate(0, 0)
+    }
+}
+
+
 .panel .menu {
     width: inherit;
     display: flex;
@@ -200,7 +223,9 @@
     font-size: 2rem;
     text-transform: uppercase;
     margin-top: 1.2rem;
-    @media (min-width:  768px) { 
+}
+@media (min-width:  768px) { 
+    .panel .menu {
         flex-direction: row;
         font-weight: 400;
         margin-top: 0;
@@ -217,7 +242,9 @@
     overflow: hidden;
     transition: 0.2s;
     font-weight: 600;
-    @media (min-width:  768px) { 
+}
+@media (min-width:  768px) { 
+    .btnneon {
         color: black;
         font-size: 1.5rem
     }
@@ -288,8 +315,9 @@
     cursor: pointer;
     background-color: #f5f5f5;
     z-index: 104;
-    
-    @media (min-width:  768px) { 
+}
+@media (min-width:  768px) { 
+    .menuhamburguesa {
         display: none;
     }
 }
@@ -331,7 +359,9 @@
     background-color: #000000c2;
     transform: translateX(-100%);
     transition: 0.3s ease all;
-    @media (min-width:  768px) { 
+}
+@media (min-width:  768px) { 
+    .navmenuoculto {
         display: none;
     }
 }

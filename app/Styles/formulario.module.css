@@ -131,7 +131,14 @@
     position: absolute;
     top: -53px;
     left: -8px;
-    @media (min-width:  400px) { 
+    /* @media (min-width:  400px) { 
+        position: unset;
+        top: unset;
+        left: unset;
+    } */
+}
+@media (min-width:  400px) { 
+    .mensajeconfirmacion {
         position: unset;
         top: unset;
         left: unset;
@@ -141,13 +148,23 @@
     font-size: 1.2rem;
     color: #fafafa;
     font-weight: 700;
-    @media (min-width:  400px) { 
+    /* @media (min-width:  400px) { 
+        font-weight: 400;
+    } */
+}
+@media (min-width:  400px) { 
+    .mensajeconfirmacion p {
         font-weight: 400;
     }
 }
 .mensajeconfirmacion span {
     display: none;
-    @media (min-width:  400px) { 
+    /* @media (min-width:  400px) { 
+        display: block;
+    } */
+}
+@media (min-width:  400px) { 
+    .mensajeconfirmacion span {
         display: block;
     }
 }

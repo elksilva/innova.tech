@@ -9,11 +9,12 @@
     position: relative;
     width: 100%;
     max-height: 100%;
-    
 }
 .imgmap {
     display: none;
-    @media (min-width:  768px) { 
+}
+@media (min-width:  768px) { 
+    .imgmap {
         display: block;
         margin-left: 2rem;
         position: absolute;
@@ -22,11 +23,13 @@
         width: 40rem;
         max-height: 90%;
         height: auto;
-    }   
+    }
 }
 .imgmap1 {
     display: none;
-    @media (min-width:  768px) { 
+}
+@media (min-width:  768px) { 
+    .imgmap1 {
         display: block;
         margin-right: 2rem;
         position: absolute;
@@ -36,7 +39,7 @@
         max-width: 90%;
         max-height: 90%;
         height: auto;
-    }   
+    }
 }
 .logoimg {
     margin: 0 auto;
@@ -74,7 +77,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    @media (min-width:  477px) { 
+}
+@media (min-width:  477px) { 
+    .bloquepoliticas {
         flex-direction: row;
     }
 }
