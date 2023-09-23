@@ -453,6 +453,7 @@
         height: 702px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        background-color: white;
     }
 }
 .interfazpropietario {
@@ -488,6 +489,7 @@
 .contenedormodulos {
     margin-top: 4rem;
     width: 100%;
+    background-color: white;
 }
 @media (min-width:  992px) {
     .contenedormodulos {
@@ -618,6 +620,7 @@
 /* CSS Porqué InterMix */
 .poqueintermix {
     margin-bottom: 2rem;
+    background-color: white;
 }
 @media (min-width:  992px) { 
     .poqueintermix {
