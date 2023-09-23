@@ -3,8 +3,8 @@
   "/sitemap.xml/route": "/sitemap.xml",
   "/page": "/",
   "/privacy/page": "/privacy",
-  "/about/page": "/about",
   "/contacts/page": "/contacts",
+  "/about/page": "/about",
   "/intermix/page": "/intermix",
   "/services/page": "/services"
 }
