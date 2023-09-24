@@ -41,7 +41,7 @@ const MainIntermix = () => {
             <div className={styles.bloque}>
                 <div className={styles.bloqueicon}>
                     <FaRegGrin className={styles.icon}/>
-                </div>
+                </div> 
                 <h3>Satisfacción del Cliente</h3>
                 <p>Que mejor que tener un cliente satisfecho ofreciéndole una fidelización en su día de cumpleaños o por su fidelidad con su negocio, con InterMix podrás consentirlos en esos momentos especiales.</p>
             </div>
