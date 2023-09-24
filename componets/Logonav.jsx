@@ -97,6 +97,16 @@ const Logonav = () => {
                             <span id={styles.span4}></span>
                             Servicios
                         </Link>
+                        <Link 
+                            onClick={toggleMenu}
+                            className={styles.btnneon} href='/intermix'
+                        >
+                            <span id={styles.span1}></span>
+                            <span id={styles.span2}></span>
+                            <span id={styles.span3}></span>
+                            <span id={styles.span4}></span>
+                            Marca
+                        </Link>
                         
                         <Link 
                             onClick={toggleMenu}
@@ -133,6 +143,13 @@ const Logonav = () => {
                             <span id={styles.span3}></span>
                             <span id={styles.span4}></span>
                             Servicios
+                        </Link>
+                        <Link className={styles.btnneon} href='/intermix'>
+                            <span id={styles.span1}></span>
+                            <span id={styles.span2}></span>
+                            <span id={styles.span3}></span>
+                            <span id={styles.span4}></span>
+                            Marca
                         </Link>
                         
                         <Link className={styles.btnneon} href='/contacts'>

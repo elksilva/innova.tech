@@ -5,6 +5,6 @@
   "/privacy/page": "app/privacy/page.js",
   "/contacts/page": "app/contacts/page.js",
   "/services/page": "app/services/page.js",
-  "/intermix/page": "app/intermix/page.js",
-  "/about/page": "app/about/page.js"
+  "/about/page": "app/about/page.js",
+  "/intermix/page": "app/intermix/page.js"
 }

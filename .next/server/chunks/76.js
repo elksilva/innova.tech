@@ -360,6 +360,26 @@ const Logonav = ()=>{
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
                                 onClick: toggleMenu,
                                 className: (barrainfo_module_default()).btnneon,
+                                href: "/intermix",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                        id: (barrainfo_module_default()).span1
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                        id: (barrainfo_module_default()).span2
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                        id: (barrainfo_module_default()).span3
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                        id: (barrainfo_module_default()).span4
+                                    }),
+                                    "Marca"
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
+                                onClick: toggleMenu,
+                                className: (barrainfo_module_default()).btnneon,
                                 href: "/contacts",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
@@ -439,6 +459,25 @@ const Logonav = ()=>{
                                             id: (barrainfo_module_default()).span4
                                         }),
                                         "Servicios"
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
+                                    className: (barrainfo_module_default()).btnneon,
+                                    href: "/intermix",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            id: (barrainfo_module_default()).span1
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            id: (barrainfo_module_default()).span2
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            id: (barrainfo_module_default()).span3
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            id: (barrainfo_module_default()).span4
+                                        }),
+                                        "Marca"
                                     ]
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
