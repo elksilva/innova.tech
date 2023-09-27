@@ -386,6 +386,12 @@ const metadata = {
 const Nosotros = ({ children })=>{
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
+                    rel: "canonical",
+                    href: "https://innovatechquindio.net/about"
+                }, "canonical")
+            }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Slider__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .ZP, {}),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_We__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {})
         ]

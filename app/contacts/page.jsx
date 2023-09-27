@@ -13,6 +13,13 @@ export const metadata = {
 const Contacto = () => {
   return (
     <>
+      <div>
+        <link
+            rel="canonical"
+            href="https://innovatechquindio.net/contacts"
+            key="canonical"
+        />
+      </div>
       <Slider/>
       <Espacioblanco/>
       <Formulario/>

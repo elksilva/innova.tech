@@ -10,6 +10,13 @@ export const metadata = {
 const Nosotros = ({children}) => {
   return (
     <>
+      <div>
+        <link
+            rel="canonical"
+            href="https://innovatechquindio.net/about"
+            key="canonical"
+        />
+      </div>
       <Slider/>
       <We/>
     </>
