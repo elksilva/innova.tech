@@ -268,10 +268,10 @@
 }
 @media (min-width:  992px) {
     .caracteristicas .bloque p {
-        line-height: 1.5;
-    }
+        line-height: 1.5; 
+    }  
 }
-
+ 
 /* CSS para el Banner Intermix */
 .banner {
     background-image: url(/img/banner-intermix-movil.jpg);
