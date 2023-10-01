@@ -1,6 +1,5 @@
 {
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js",
   "/page": "app/page.js",
   "/privacy/page": "app/privacy/page.js",
   "/intermix/page": "app/intermix/page.js",
