@@ -332,16 +332,16 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 8829:
+/***/ 9006:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8354));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9013));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 954, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6739));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9103));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4664));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 954, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6739));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3768))
 
 /***/ }),
@@ -621,6 +621,9 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(6786);
+// EXTERNAL MODULE: ./node_modules/next/dist/client/components/noop-head.js
+var noop_head = __webpack_require__(1528);
+var noop_head_default = /*#__PURE__*/__webpack_require__.n(noop_head);
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__(5124);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
@@ -713,14 +716,33 @@ var Services = __webpack_require__(2303);
 
 
 
+
 const metadata = {
     title: "InnovaTech Quind\xedo | Software reserva de citas online",
     description: "Sistema para reservas de citas online, desarrollo web, aplicaciones web, soporte y reparaci\xf3n de computadores e impresoras, Quind\xedo, Colombia.",
     keywords: "Reserva de citas online, Desarrollo Web, Aplicaciones web, e-commerce, soporte, reparaci\xf3n de computadores e impresoras Quind\xedo"
 };
 function Home() {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((noop_head_default()), {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                        async: true,
+                        src: "https://www.googletagmanager.com/gtag/js?id=G-KWK9PMBHDR"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                        dangerouslySetInnerHTML: {
+                            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-KWK9PMBHDR');
+            `
+                        }
+                    })
+                ]
+            }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
                     rel: "canonical",
@@ -759,7 +781,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,152,0,699,580,76,142,930,502,861,249], () => (__webpack_exec__(7974)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,152,0,699,329,76,142,930,502,861,249], () => (__webpack_exec__(7974)));
 module.exports = __webpack_exports__;
 
 })();

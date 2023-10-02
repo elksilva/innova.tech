@@ -1,4 +1,4 @@
-
+import Head from "next/head"
 import Seccionintermix from "@/componets/Seccionintermix"
 import Slider from "@/componets/Slider"
 import We from "@/componets/We"
@@ -15,7 +15,22 @@ export const metadata = {
 export default function Home() {
 
   return (
-    <main>
+    <>
+      <Head>
+        {/* Agrega el código de Google Analytics aquí */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWK9PMBHDR"></script>
+        
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-KWK9PMBHDR');
+            `,
+          }}
+        />
+      </Head>
       <div>
         <link
             rel="canonical"
@@ -29,6 +44,6 @@ export default function Home() {
       <Proyectos/>
       <Seccionintermix/>
       <Formulario/>  
-    </main> 
+    </> 
   )
 }
