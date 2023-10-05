@@ -19,7 +19,7 @@ const BarraInfo = () => {
                         <rect x="3" y="5" width="18" height="14" rx="2" />
                         <polyline points="3 7 12 13 21 7" />
                     </svg>
-                    <Link href="#">info@innovatechquindio.net</Link>
+                    <Link href="info@innovatechquindio.net">info@innovatechquindio.net</Link>
                     <span className={styles.facebook}></span>
                     
                 </div>

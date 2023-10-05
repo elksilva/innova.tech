@@ -120,7 +120,7 @@ const BarraInfo = ()=>{
                                 ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                href: "#",
+                                href: "info@innovatechquindio.net",
                                 children: "info@innovatechquindio.net"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
