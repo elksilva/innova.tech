@@ -121,7 +121,7 @@ const BarraInfo = ()=>{
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                 href: "#",
-                                children: "innovatech@innova.com"
+                                children: "info@innovatechquindio.net"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                 className: (barrainfo_module_default()).facebook
