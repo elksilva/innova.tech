@@ -3,6 +3,14 @@ import {FaFacebook, FaInstagram, FaYoutube} from "react-icons/fa"
 import styles from '@/app/Styles/barrainfo.module.css'
 
 const BarraInfo = () => {
+
+    const direccionCorreo = 'info@innovatechquindio.net';
+
+    const abrirClienteCorreo = () => {
+        const link = `mailto:${direccionCorreo}`;
+        window.location.href = link;
+    };
+
   return (
     <>
         <div className="header">
@@ -19,7 +27,7 @@ const BarraInfo = () => {
                         <rect x="3" y="5" width="18" height="14" rx="2" />
                         <polyline points="3 7 12 13 21 7" />
                     </svg>
-                    <Link href="info@innovatechquindio.net">info@innovatechquindio.net</Link>
+                    <Link href="#" onClick={abrirClienteCorreo}>info@innovatechquindio.net</Link>
                     <span className={styles.facebook}></span>
                     
                 </div>

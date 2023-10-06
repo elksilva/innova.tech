@@ -51,6 +51,11 @@ var barrainfo_module_default = /*#__PURE__*/__webpack_require__.n(barrainfo_modu
 
 
 const BarraInfo = ()=>{
+    const direccionCorreo = "info@innovatechquindio.net";
+    const abrirClienteCorreo = ()=>{
+        const link = `mailto:${direccionCorreo}`;
+        window.location.href = link;
+    };
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
         children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
             className: "header",
@@ -120,7 +125,8 @@ const BarraInfo = ()=>{
                                 ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                href: "info@innovatechquindio.net",
+                                href: "#",
+                                onClick: abrirClienteCorreo,
                                 children: "info@innovatechquindio.net"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("span", {

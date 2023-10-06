@@ -2,8 +2,8 @@
   "/favicon.ico/route": "/favicon.ico",
   "/page": "/",
   "/privacy/page": "/privacy",
-  "/about/page": "/about",
   "/contacts/page": "/contacts",
+  "/about/page": "/about",
   "/intermix/page": "/intermix",
   "/services/page": "/services"
 }
