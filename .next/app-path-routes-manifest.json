@@ -1,0 +1,10 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/contacts/page": "/contacts",
+  "/about/page": "/about",
+  "/intermix/page": "/intermix",
+  "/services/page": "/services"
+}
