@@ -281,7 +281,7 @@ const tree = {
         'services',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5949)), "C:\\Users\\Jose Silva\\Desktop\\innovatechnuevo\\app\\services\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 585)), "C:\\Users\\Jose Silva\\Desktop\\innovatechnuevo\\app\\services\\page.jsx"],
           
         }]
       },
@@ -360,21 +360,41 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5949:
+/***/ 585:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ page),
-/* harmony export */   metadata: () => (/* binding */ metadata)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _componets_Espacioblanco__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(896);
-/* harmony import */ var _componets_Services__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2303);
-/* harmony import */ var _componets_Slider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8052);
-/* harmony import */ var _componets_FacebookPixel__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4125);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ page),
+  metadata: () => (/* binding */ metadata)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(6786);
+// EXTERNAL MODULE: ./app/Styles/espacio.module.css
+var espacio_module = __webpack_require__(7850);
+var espacio_module_default = /*#__PURE__*/__webpack_require__.n(espacio_module);
+;// CONCATENATED MODULE: ./componets/Espacioblanco.jsx
+
+
+const Espacioblanco = ()=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        className: (espacio_module_default()).espacio
+    });
+};
+/* harmony default export */ const componets_Espacioblanco = (Espacioblanco);
+
+// EXTERNAL MODULE: ./componets/Services.jsx
+var Services = __webpack_require__(2303);
+// EXTERNAL MODULE: ./componets/Slider.jsx
+var Slider = __webpack_require__(8052);
+// EXTERNAL MODULE: ./componets/FacebookPixel.jsx
+var FacebookPixel = __webpack_require__(4125);
+;// CONCATENATED MODULE: ./app/services/page.jsx
 
 
 
@@ -386,45 +406,22 @@ const metadata = {
     keywords: "Desarrollo Web, Aplicaciones web, e-commerce, soporte, reparaci\xf3n de computadores e impresoras, Quind\xedo, Colombia"
 };
 function page() {
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
                     rel: "canonical",
                     href: "https://innovatechquindio.net/services"
                 }, "canonical")
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Slider__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .ZP, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Espacioblanco__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Services__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .ZP, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Espacioblanco__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_FacebookPixel__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {})
+            /*#__PURE__*/ jsx_runtime_.jsx(Slider/* default */.ZP, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(componets_Espacioblanco, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Services/* default */.ZP, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(componets_Espacioblanco, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(FacebookPixel/* default */.Z, {})
         ]
     });
 }
-
-
-/***/ }),
-
-/***/ 896:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _app_Styles_espacio_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7850);
-/* harmony import */ var _app_Styles_espacio_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_app_Styles_espacio_module_css__WEBPACK_IMPORTED_MODULE_1__);
-
-
-const Espacioblanco = ()=>{
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-        className: (_app_Styles_espacio_module_css__WEBPACK_IMPORTED_MODULE_1___default().espacio)
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Espacioblanco);
 
 
 /***/ })
@@ -436,7 +433,7 @@ const Espacioblanco = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,0,76,125,142,930], () => (__webpack_exec__(5280)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,0,76,103,125,810], () => (__webpack_exec__(5280)));
 module.exports = __webpack_exports__;
 
 })();

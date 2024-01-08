@@ -278,7 +278,7 @@ const tree = {
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3649)), "C:\\Users\\Jose Silva\\Desktop\\innovatechnuevo\\app\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3781)), "C:\\Users\\Jose Silva\\Desktop\\innovatechnuevo\\app\\page.jsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -606,7 +606,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3649:
+/***/ 3781:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -691,13 +691,11 @@ var Slider = __webpack_require__(8052);
 var We = __webpack_require__(9500);
 // EXTERNAL MODULE: ./componets/FacebookPixel.jsx
 var FacebookPixel = __webpack_require__(4125);
-// EXTERNAL MODULE: ./componets/Formulario.jsx
-var Formulario = __webpack_require__(9079);
 // EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
 var module_proxy = __webpack_require__(1363);
-;// CONCATENATED MODULE: ./componets/Proyectos.jsx
+;// CONCATENATED MODULE: ./componets/Formulario.jsx
 
-const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\Jose Silva\Desktop\innovatechnuevo\componets\Proyectos.jsx`)
+const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\Jose Silva\Desktop\innovatechnuevo\componets\Formulario.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -707,7 +705,20 @@ const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
 
-/* harmony default export */ const Proyectos = (__default__);
+/* harmony default export */ const Formulario = (__default__);
+;// CONCATENATED MODULE: ./componets/Proyectos.jsx
+
+const Proyectos_proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\Jose Silva\Desktop\innovatechnuevo\componets\Proyectos.jsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule: Proyectos_esModule, $$typeof: Proyectos_$$typeof } = Proyectos_proxy;
+const Proyectos_default_ = Proyectos_proxy.default;
+
+
+/* harmony default export */ const Proyectos = (Proyectos_default_);
 // EXTERNAL MODULE: ./componets/Services.jsx
 var Services = __webpack_require__(2303);
 ;// CONCATENATED MODULE: ./app/page.jsx
@@ -758,7 +769,7 @@ function Home() {
             /*#__PURE__*/ jsx_runtime_.jsx(Services/* default */.ZP, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Proyectos, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(componets_Seccionintermix, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(Formulario/* default */.ZP, {})
+            /*#__PURE__*/ jsx_runtime_.jsx(Formulario, {})
         ]
     });
 }
@@ -785,7 +796,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,152,0,699,329,76,125,142,930,502,861,249], () => (__webpack_exec__(7974)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,152,0,699,329,76,103,125,810,502,354,249], () => (__webpack_exec__(7974)));
 module.exports = __webpack_exports__;
 
 })();

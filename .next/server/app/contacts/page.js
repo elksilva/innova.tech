@@ -341,15 +341,94 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 793:
+/***/ 4600:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8354));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9103))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8264))
 
 /***/ }),
 
-/***/ 7850:
+/***/ 8264:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ page),
+  metadata: () => (/* binding */ metadata)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(6786);
+// EXTERNAL MODULE: ./app/Styles/espacio.module.css
+var espacio_module = __webpack_require__(3177);
+var espacio_module_default = /*#__PURE__*/__webpack_require__.n(espacio_module);
+;// CONCATENATED MODULE: ./componets/Espacioblanco.jsx
+
+
+const Espacioblanco = ()=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        className: (espacio_module_default()).espacio
+    });
+};
+/* harmony default export */ const componets_Espacioblanco = (Espacioblanco);
+
+// EXTERNAL MODULE: ./componets/Formulario.jsx
+var Formulario = __webpack_require__(8354);
+// EXTERNAL MODULE: ./componets/Slider.jsx + 3 modules
+var Slider = __webpack_require__(9103);
+// EXTERNAL MODULE: ./componets/FacebookPixel.jsx
+var FacebookPixel = __webpack_require__(1227);
+// EXTERNAL MODULE: external "next/dist/compiled/react"
+var react_ = __webpack_require__(8038);
+;// CONCATENATED MODULE: ./app/contacts/page.jsx
+/* __next_internal_client_entry_do_not_use__ metadata,default auto */ 
+
+
+
+
+
+
+const metadata = {
+    title: "Contacto - InnovaTech Quind\xedo",
+    description: "Soporte y Desarrollo Inform\xe1tico - Dise\xf1o de p\xe1ginas web - Aplicaciones Web - Reparaci\xf3n de Computadoras - Impresoras",
+    keywords: "Desarrollo Web, Aplicaciones web, e-commerce, soporte, reparaci\xf3n de computadores e impresoras, Quind\xedo, Colombia"
+};
+const Contacto = ()=>{
+    //Se usa para captar clientes potenciales con el pixel de facebook cuando llegan a la página de contactos
+    (0,react_.useEffect)(()=>{
+        function captureLead() {
+            // Tu lógica para capturar un lead
+            if (false) {}
+        }
+        // Llamar a captureLead() cuando se carga la aplicación
+        captureLead();
+    }, []);
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                    rel: "canonical",
+                    href: "https://innovatechquindio.net/contacts"
+                }, "canonical")
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(Slider["default"], {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(componets_Espacioblanco, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Formulario["default"], {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(componets_Espacioblanco, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(FacebookPixel/* default */.Z, {})
+        ]
+    });
+};
+/* harmony default export */ const page = (Contacto);
+
+
+/***/ }),
+
+/***/ 3177:
 /***/ ((module) => {
 
 // Exports
@@ -366,69 +445,26 @@ module.exports = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   metadata: () => (/* binding */ metadata)
+/* harmony export */   metadata: () => (/* binding */ e0)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _componets_Espacioblanco__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(896);
-/* harmony import */ var _componets_Formulario__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9079);
-/* harmony import */ var _componets_Slider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8052);
-/* harmony import */ var _componets_FacebookPixel__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4125);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2947);
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1363);
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Jose Silva\Desktop\innovatechnuevo\app\contacts\page.jsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = proxy["metadata"];
 
 
-
-
-
-
-const metadata = {
-    title: "Contacto - InnovaTech Quind\xedo",
-    description: "Soporte y Desarrollo Inform\xe1tico - Dise\xf1o de p\xe1ginas web - Aplicaciones Web - Reparaci\xf3n de Computadoras - Impresoras",
-    keywords: "Desarrollo Web, Aplicaciones web, e-commerce, soporte, reparaci\xf3n de computadores e impresoras, Quind\xedo, Colombia"
-};
-const Contacto = ()=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                    rel: "canonical",
-                    href: "https://innovatechquindio.net/contacts"
-                }, "canonical")
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Slider__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .ZP, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Espacioblanco__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Formulario__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .ZP, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Espacioblanco__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_FacebookPixel__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {})
-        ]
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Contacto);
-
-
-/***/ }),
-
-/***/ 896:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _app_Styles_espacio_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7850);
-/* harmony import */ var _app_Styles_espacio_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_app_Styles_espacio_module_css__WEBPACK_IMPORTED_MODULE_1__);
-
-
-const Espacioblanco = ()=>{
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-        className: (_app_Styles_espacio_module_css__WEBPACK_IMPORTED_MODULE_1___default().espacio)
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Espacioblanco);
-
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
 /***/ })
 
@@ -439,7 +475,7 @@ const Espacioblanco = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,699,76,125,142,861], () => (__webpack_exec__(8371)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,699,76,103,354], () => (__webpack_exec__(8371)));
 module.exports = __webpack_exports__;
 
 })();
