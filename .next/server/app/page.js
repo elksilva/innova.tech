@@ -278,7 +278,7 @@ const tree = {
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3649)), "C:\\Users\\Jose Silva\\Desktop\\innovatechnuevo\\app\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4893)), "C:\\Users\\Jose Silva\\Desktop\\innovatechnuevo\\app\\page.jsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -332,16 +332,16 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 8829:
+/***/ 9006:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8354));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9013));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 954, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6739));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9103));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4664));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 954, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6739));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3768))
 
 /***/ }),
@@ -606,7 +606,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3649:
+/***/ 4893:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -689,6 +689,45 @@ const Seccionintermix = ()=>{
 var Slider = __webpack_require__(8052);
 // EXTERNAL MODULE: ./componets/We.jsx + 1 modules
 var We = __webpack_require__(9500);
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/react.shared-subset.js
+var react_shared_subset = __webpack_require__(2947);
+;// CONCATENATED MODULE: ./componets/FacebookPixel.jsx
+
+
+const FacebookPixel = ()=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                dangerouslySetInnerHTML: {
+                    __html: `
+                    !function(f,b,e,v,n,t,s)
+                    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                    n.queue=[];t=b.createElement(e);t.async=!0;
+                    t.src=v;s=b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t,s)}(window, document,'script',
+                    'https://connect.facebook.net/en_US/fbevents.js');
+                    fbq('init', '1064579744861005');
+                    fbq('track', 'PageView');
+                `
+                }
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("noscript", {
+                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                    height: "1",
+                    width: "1",
+                    style: {
+                        display: "none"
+                    },
+                    src: `https://www.facebook.com/tr?id=1064579744861005&ev=PageView&noscript=1`
+                })
+            })
+        ]
+    });
+};
+/* harmony default export */ const componets_FacebookPixel = (FacebookPixel);
+
 // EXTERNAL MODULE: ./componets/Formulario.jsx
 var Formulario = __webpack_require__(9079);
 // EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
@@ -709,6 +748,7 @@ const __default__ = proxy.default;
 // EXTERNAL MODULE: ./componets/Services.jsx
 var Services = __webpack_require__(2303);
 ;// CONCATENATED MODULE: ./app/page.jsx
+
 
 
 
@@ -740,7 +780,8 @@ function Home() {
               gtag('config', 'G-KWK9PMBHDR');
             `
                         }
-                    })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(componets_FacebookPixel, {})
                 ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {

@@ -2,6 +2,7 @@ import Head from "next/head"
 import Seccionintermix from "@/componets/Seccionintermix"
 import Slider from "@/componets/Slider"
 import We from "@/componets/We"
+import FacebookPixel from "@/componets/FacebookPixel"
 import Formulario from "../componets/Formulario"
 import Proyectos from "../componets/Proyectos"
 import Services from "../componets/Services"
@@ -30,6 +31,7 @@ export default function Home() {
             `,
           }}
         />
+        <FacebookPixel/>
       </Head>
       <div>
         <link

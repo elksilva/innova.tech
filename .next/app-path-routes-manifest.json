@@ -4,7 +4,7 @@
   "/page": "/",
   "/privacy/page": "/privacy",
   "/contacts/page": "/contacts",
-  "/about/page": "/about",
   "/intermix/page": "/intermix",
+  "/about/page": "/about",
   "/services/page": "/services"
 }
