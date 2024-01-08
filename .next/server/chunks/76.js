@@ -5,7 +5,7 @@ exports.modules = {
 /***/ 866:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4514))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4523))
 
 /***/ }),
 
@@ -20,7 +20,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 4514:
+/***/ 4523:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -655,8 +655,46 @@ const Preloader = ()=>{
 // EXTERNAL MODULE: ./node_modules/nextjs-toploader/dist/index.js
 var dist = __webpack_require__(5578);
 var dist_default = /*#__PURE__*/__webpack_require__.n(dist);
+;// CONCATENATED MODULE: ./componets/FacebookPixel.jsx
+
+
+const FacebookPixel = ()=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                dangerouslySetInnerHTML: {
+                    __html: `
+                    !function(f,b,e,v,n,t,s)
+                    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                    n.queue=[];t=b.createElement(e);t.async=!0;
+                    t.src=v;s=b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t,s)}(window, document,'script',
+                    'https://connect.facebook.net/en_US/fbevents.js');
+                    fbq('init', '1064579744861005');
+                    fbq('track', 'PageView');
+                `
+                }
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("noscript", {
+                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                    height: "1",
+                    width: "1",
+                    style: {
+                        display: "none"
+                    },
+                    src: `https://www.facebook.com/tr?id=1064579744861005&ev=PageView&noscript=1`
+                })
+            })
+        ]
+    });
+};
+/* harmony default export */ const componets_FacebookPixel = (FacebookPixel);
+
 ;// CONCATENATED MODULE: ./app/layout.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
+
 
 
 
@@ -681,7 +719,8 @@ function RootLayout({ children, pageProps }) {
                 /*#__PURE__*/ jsx_runtime_.jsx(componets_Logonav, {}),
                 children,
                 /*#__PURE__*/ jsx_runtime_.jsx(componets_Btnwhastapp, {}),
-                /*#__PURE__*/ jsx_runtime_.jsx(componets_Footer, {})
+                /*#__PURE__*/ jsx_runtime_.jsx(componets_Footer, {}),
+                /*#__PURE__*/ jsx_runtime_.jsx(componets_FacebookPixel, {})
             ]
         })
     });
