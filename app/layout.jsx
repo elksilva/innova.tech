@@ -10,7 +10,6 @@ import Spinner from "@/componets/Spinner"
 
 import { Rubik, Mulish } from 'next/font/google'
 import NextTopLoader from "nextjs-toploader"
-import FacebookPixel from '@/componets/FacebookPixel'
 
 
 const fuentePrimaria = Rubik({ 
