@@ -3,6 +3,7 @@ import BarraInfo from '@/componets/BarraInfo'
 import Logonav from '@/componets/Logonav'
 import Btnwhastapp from '@/componets/Btnwhastapp'
 import Footer from '@/componets/Footer'
+import FacebookPixel from '@/componets/FacebookPixel'
 import React, {useState } from 'react';
 import './globals.css'
 import Spinner from "@/componets/Spinner"

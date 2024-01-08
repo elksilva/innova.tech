@@ -278,7 +278,7 @@ const tree = {
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4893)), "C:\\Users\\Jose Silva\\Desktop\\innovatechnuevo\\app\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3649)), "C:\\Users\\Jose Silva\\Desktop\\innovatechnuevo\\app\\page.jsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -336,7 +336,7 @@ const routeModule = new AppPageRouteModule({
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8354));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9013));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9968));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 954, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6739));
@@ -346,7 +346,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 9013:
+/***/ 9968:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -374,8 +374,8 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 /* harmony default export */ const fcm = ({"src":"/_next/static/media/fcm.c5bd708c.png","height":340,"width":365,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAA8klEQVR4nAHnABj/AcO/ugDRy74SJis0hPsABEAAAQIABP/3v+DZyH0fJzzuAa+tsBcREw7C0eb6JrTjBAAsEQUALgriABUQCdkEAg4+AbuxnqHG8Slewv4b+VwDxwb+9/MAxOgH+hwWEQc1GPOhAbGqm9GLyQQuKh8i/0wa6AHv8vkAs+AM//cbKAFeDcbRAcjGwKDAxclfxdXj+WdRQgYA/fkAns79+jQtKAc3D9+gAc/MwBbk5unB2+DnKDcyMAD//v8AzNLWAB4YDdcQEBE/AcXCtwCtqI0RRktogvv9A0Hu7+0AFhQOvujo5n4lJSfwbDlrAoHLYiMAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":7});
 ;// CONCATENATED MODULE: ./public/img/ptt.png
 /* harmony default export */ const ptt = ({"src":"/_next/static/media/ptt.d15054f5.png","height":1122,"width":1122,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABE0lEQVR4nAEIAff+AeoAMwAAAOcPASAligI9Kkf+5Or/AODsuAEvIHb/4+rzAexRXw7+r9PCA2M8LwAJCAACGBUA/Ki6AP/U6c8CVzY/AesiQJj/9vtnBWhM+gIZFwUDGRcA/Nrd+/urugb/0euVAestRt7/09IhBYV0/whGQgH5yMoAAPn7/wD+/QH5dnDcAeoYO90BGg4iCH9r/wD9/gH6u8EABTk0//qmsQH+uNzbAesjQJT/3fJrBYZb+gQnJAX7w8kA/tvg+/611QYBKhWRAe1mcQz9mrS/AllANAD6/AD9ragAARMxAAEUCMn/2eVCAes3TAABIhkL/qfLhgAMCEgBIA0AAPj8tv/k9nsAEwX2eMB44uXhsqUAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
-// EXTERNAL MODULE: ./public/img/LogoInnovaTech.png
-var LogoInnovaTech = __webpack_require__(9019);
+;// CONCATENATED MODULE: ./public/img/LogoInnovaTech.png
+/* harmony default export */ const LogoInnovaTech = ({"src":"/_next/static/media/LogoInnovaTech.d098e1fd.png","height":418,"width":404,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA1klEQVR42hXJQSuDAQAA0BflIGcHjn6Ak5q4kQM3UZospyWUJUYRLUW5uYkL92W11RqaGg6kdkOEjLUkarHi9sm7PgBnMrEtj3sJlZlBtRBBHYCinYNVz9e70qO3hqLvRtY+TQ3/am50b3t633FQIRrQfqV7vspywMCPlh5Z54WYm6//hJz+8JPOEICc04uwl2KNMTjSH3kV6oOAemWJeET1O29hKaC1oCv6QS9kpBpA3mFqRPUuLRsvmZg9kewgaJtUaQJwKTm3oZRa9La5ojy+7qEV/gCoYVJCUlS0iQAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
 // EXTERNAL MODULE: ./app/Styles/proyectos.module.css
 var proyectos_module = __webpack_require__(9315);
 var proyectos_module_default = /*#__PURE__*/__webpack_require__.n(proyectos_module);
@@ -472,7 +472,7 @@ const Proyectos = ()=>{
                                             href: "https://innovatechquindio.net/intermix",
                                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                 className: (proyectos_module_default()).logoEmpresa,
-                                                src: LogoInnovaTech/* default */.Z,
+                                                src: LogoInnovaTech,
                                                 width: 150,
                                                 height: 120,
                                                 alt: "Logo Empresa",
@@ -606,7 +606,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4893:
+/***/ 3649:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -689,45 +689,8 @@ const Seccionintermix = ()=>{
 var Slider = __webpack_require__(8052);
 // EXTERNAL MODULE: ./componets/We.jsx + 1 modules
 var We = __webpack_require__(9500);
-// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/react.shared-subset.js
-var react_shared_subset = __webpack_require__(2947);
-;// CONCATENATED MODULE: ./componets/FacebookPixel.jsx
-
-
-const FacebookPixel = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("script", {
-                dangerouslySetInnerHTML: {
-                    __html: `
-                    !function(f,b,e,v,n,t,s)
-                    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                    n.queue=[];t=b.createElement(e);t.async=!0;
-                    t.src=v;s=b.getElementsByTagName(e)[0];
-                    s.parentNode.insertBefore(t,s)}(window, document,'script',
-                    'https://connect.facebook.net/en_US/fbevents.js');
-                    fbq('init', '1064579744861005');
-                    fbq('track', 'PageView');
-                `
-                }
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("noscript", {
-                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                    height: "1",
-                    width: "1",
-                    style: {
-                        display: "none"
-                    },
-                    src: `https://www.facebook.com/tr?id=1064579744861005&ev=PageView&noscript=1`
-                })
-            })
-        ]
-    });
-};
-/* harmony default export */ const componets_FacebookPixel = (FacebookPixel);
-
+// EXTERNAL MODULE: ./componets/FacebookPixel.jsx
+var FacebookPixel = __webpack_require__(4125);
 // EXTERNAL MODULE: ./componets/Formulario.jsx
 var Formulario = __webpack_require__(9079);
 // EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
@@ -781,7 +744,7 @@ function Home() {
             `
                         }
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(componets_FacebookPixel, {})
+                    /*#__PURE__*/ jsx_runtime_.jsx(FacebookPixel/* default */.Z, {})
                 ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -822,7 +785,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,152,0,699,329,76,142,930,502,861,249], () => (__webpack_exec__(7974)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,482,28,192,152,500,0,699,329,452,125,142,930,502,861,249], () => (__webpack_exec__(7974)));
 module.exports = __webpack_exports__;
 
 })();

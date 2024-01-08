@@ -1,6 +1,7 @@
 import Espacioblanco from "@/componets/Espacioblanco";
 import Services from "@/componets/Services";
 import Slider from "@/componets/Slider";
+import FacebookPixel from "@/componets/FacebookPixel";
 
 export const metadata = {
   title: 'Servicios | Software de Reserva de Citas Online Barbería',
@@ -22,6 +23,7 @@ export default function page() {
       <Espacioblanco/>
       <Services/>
       <Espacioblanco/>
+      <FacebookPixel/>
     </>
   )
 }

@@ -583,6 +583,8 @@ const BannerIntermix = ()=>{
 };
 /* harmony default export */ const componets_BannerIntermix = (BannerIntermix);
 
+// EXTERNAL MODULE: ./componets/FacebookPixel.jsx
+var FacebookPixel = __webpack_require__(4125);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(4178);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
@@ -920,6 +922,7 @@ const __default__ = proxy.default;
 
 
 
+
 const metadata = {
     title: "InterMix App | Software de Reserva de Citas Online Barber\xeda",
     description: "Sistema para la gesti\xf3n de reservas de citas de barber\xeda, sal\xf3n de belleza, Spa y cualquier negocio que maneje reservas de citas online. Software moderno.",
@@ -937,7 +940,8 @@ const Intermix = ()=>{
             /*#__PURE__*/ jsx_runtime_.jsx(componets_HeaderIntermix, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(MainIntermix, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(componets_BannerIntermix, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(componets_Interfazintermix, {})
+            /*#__PURE__*/ jsx_runtime_.jsx(componets_Interfazintermix, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(FacebookPixel/* default */.Z, {})
         ]
     });
 };
@@ -999,7 +1003,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,804,152,76,249], () => (__webpack_exec__(2591)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,482,28,152,500,452,125,249], () => (__webpack_exec__(2591)));
 module.exports = __webpack_exports__;
 
 })();

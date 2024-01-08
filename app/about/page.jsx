@@ -1,5 +1,6 @@
 import Slider from "@/componets/Slider";
 import We from "@/componets/We";
+import FacebookPixel from "@/componets/FacebookPixel";
 
 export const metadata = {
   title: 'Nosotros - InnovaTech Quindío Desarrollo de Aplicaciones Web',
@@ -19,6 +20,7 @@ const Nosotros = ({children}) => {
       </div>
       <Slider/>
       <We/>
+      <FacebookPixel/>
     </>
   )
 }

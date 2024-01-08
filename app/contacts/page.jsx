@@ -2,6 +2,7 @@
 import Espacioblanco from '@/componets/Espacioblanco'
 import Formulario from '@/componets/Formulario'
 import Slider from '@/componets/Slider'
+import FacebookPixel from '@/componets/FacebookPixel'
 import React from 'react'
 
 export const metadata = {
@@ -24,6 +25,7 @@ const Contacto = () => {
       <Espacioblanco/>
       <Formulario/>
       <Espacioblanco/>
+      <FacebookPixel/>
     </>
   )
 }

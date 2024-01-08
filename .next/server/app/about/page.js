@@ -375,6 +375,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _componets_Slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8052);
 /* harmony import */ var _componets_We__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9500);
+/* harmony import */ var _componets_FacebookPixel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4125);
+
 
 
 
@@ -393,7 +395,8 @@ const Nosotros = ({ children })=>{
                 }, "canonical")
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_Slider__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .ZP, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_We__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {})
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_We__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {}),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componets_FacebookPixel__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {})
         ]
     });
 };
@@ -409,7 +412,7 @@ const Nosotros = ({ children })=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,804,993,152,76,142,502], () => (__webpack_exec__(2738)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,482,28,192,152,452,125,142,502], () => (__webpack_exec__(2738)));
 module.exports = __webpack_exports__;
 
 })();

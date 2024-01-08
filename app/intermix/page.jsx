@@ -1,5 +1,6 @@
 
 import BannerIntermix from '@/componets/BannerIntermix'
+import FacebookPixel from '@/componets/FacebookPixel'
 import HeaderIntermix from '@/componets/HeaderIntermix'
 import Interfazintermix from '@/componets/Interfazintermix'
 import MainIntermix from '@/componets/MainIntermix'
@@ -24,6 +25,7 @@ const Intermix = () => {
       <MainIntermix/>
       <BannerIntermix/>
       <Interfazintermix/>
+      <FacebookPixel/>
     </>
   )
 }
