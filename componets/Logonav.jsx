@@ -118,6 +118,17 @@ const Logonav = () => {
                             <span id={styles.span4}></span>
                             Contacto
                         </Link>
+
+                        <Link 
+                            onClick={toggleMenu}
+                            className={styles.btnneon} href='/contacts'
+                        >
+                            <span id={styles.span1}></span>
+                            <span id={styles.span2}></span>
+                            <span id={styles.span3}></span>
+                            <span id={styles.span4}></span>
+                            Cursos
+                        </Link>
                     </nav>
 
                 {/* VISTA MENÚ NAVEGACIÓN PARA DESKTOP */}
@@ -158,6 +169,14 @@ const Logonav = () => {
                             <span id={styles.span3}></span>
                             <span id={styles.span4}></span>
                             Contacto
+                        </Link>
+
+                        <Link className={styles.btnneon} href='/cursos'>
+                            <span id={styles.span1}></span>
+                            <span id={styles.span2}></span>
+                            <span id={styles.span3}></span>
+                            <span id={styles.span4}></span>
+                            Cursos
                         </Link>
                     </nav>
                 </aside>
